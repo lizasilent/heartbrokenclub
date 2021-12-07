@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.Main{
+  margin: 0 auto;
+  padding:5% 15%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-height: 120px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Wrapper {
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+  grid-template-rows:  repeat(5, 100px);
+  grid-template-columns: repeat(5, 100px);
+
+}
+
+.Wrapper-cell{
+  background: linear-gradient(45deg, #ff6600, #830404);
+}
