@@ -29,3 +29,90 @@
 .wrapper-cell:hover{
   opacity: 0.8;
 }
+
+.popup {
+  background-color: rgba(0,0,0,0.5);
+  width:100%;
+  min-height: 100%;
+  overflow:hidden;
+  position:fixed;
+  top: 0;
+  left: 0;
+  /* visibility: hidden;
+  opacity: 0; */
+  transition: visibility .5s, opacity .5s linear;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 7;
+}
+
+.popup_is-open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup__form {
+  display: flex;
+  position:relative;
+  background-color: white;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  margin:0 auto;
+  width: 698px;
+  height: 511px; 
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.popup__close-btn {
+  position: absolute;
+  top:-40px;
+  right: -40px;
+  background-color: transparent;
+  background-image: url(../src/images/close_icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border:0;
+  padding: 0;
+  min-height: 40px;
+  width: 40px;
+  cursor:pointer;
+  outline: none;
+}
+
+.popup__img{
+  position: relative;
+  background-image: url("../../heartbrokenclub/src/images/1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  margin-right: 30px;
+}
+
+.popup__text-content {
+  text-align: right;
+  max-width: 50%;
+}
+
+.popup__header{
+  position:relative;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #000000;
+  margin-top:0;
+}
+
+.popup__description{
+  position:relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000000;
+  margin-top:0;
+}
