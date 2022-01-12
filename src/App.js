@@ -33,12 +33,17 @@ function App() {
           <div className="wrapper-cell"></div>
           <div className="wrapper-cell"></div>
           <div className="wrapper-cell"></div>
+          <div className="wrapper-cell"></div>
+          <div className="wrapper-cell"></div>
+          <div className="wrapper-cell"></div>
+          <div className="wrapper-cell"></div>
+          <div className="wrapper-cell"></div>
           </div>
           </main>
 <footer>Created by liza__silent</footer>
           
 
-<div className="popup popup_is-open">
+{/* <div className="popup popup_is-open">
             <div className="popup__form">
                 <button className="popup__close-btn" type="button"/>
                 <div className="popup__img"></div>
@@ -50,7 +55,7 @@ function App() {
 Анна Ремез — прозаик, переводчик, финалист премий «Книгуру», премии имени Владислава Крапивина, лауреат премии «Новая детская книга». Ольга Явич — художник книги, руководитель мастерской для детей «Злой волк».</p>
             </div>
             </div>
-        </div>
+        </div> */}
     </div>
   );
 }
