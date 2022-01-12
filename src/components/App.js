@@ -2,6 +2,26 @@ import '../App.css';
 import React from "react";
 import Popup from "./Popup";
 
+const initialCards = [
+  {
+    id: 1,
+    name: "Архыз",
+    link:
+      "https://pictures.s3.yandex.net/frontend-developer/cards-compressed/arkhyz.jpg",
+      color: "#F1948A"
+  },
+  {
+    id: 2,
+    name: "Челябинская область",
+    link:
+      "https://pictures.s3.yandex.net/frontend-developer/cards-compressed/chelyabinsk-oblast.jpg",
+      color: "#CB4335"
+  },
+];
+
+
+
+
 
 function App() {
 
@@ -17,44 +37,27 @@ function App() {
   }
 
 
+
+
   return (
     <div className="app">
 
-      <header className="app-header">
+      <header className="header">
       </header>
+
+
       <main className="main">
-      <div className="wrapper">
-          <div className="wrapper-cell" onClick={handleCardClick}></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          <div className="wrapper-cell"></div>
-          </div>
+
+      <div className="wrapper"> 
+  
+      {initialCards.map((card, i) => (
+            <div key={card.id} className="wrapper-cell" style={{
+              backgroundColor: card.color,
+            }}></div>
+          ))}
+          
+   </div>
+       
           </main>
 
 

@@ -22,9 +22,9 @@
 
 }
 
-.wrapper-cell{
+/* .wrapper-cell{
   background: linear-gradient(0.25turn, #830404, #ff6600);
-}
+} */
 
 .wrapper-cell:hover{
   opacity: 0.8;
