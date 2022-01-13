@@ -2,12 +2,12 @@ import React from 'react';
 import '../App.css';
 
 
-function Popup({onClose}) {
+function Popup({active, popupActive}) {
     return (
-        // <div className={`popup popup_type_grid-img ${card ? 'popup_is-open' : ''}`}></div>
-       <div className="popup popup_is-open">
+        
+       <div className={`popup ${active && 'popup_is-open'}`}>
             <div className="popup__form">
-                <button className="popup__close-btn" type="button" onClick={onClose}/>
+                <button className="popup__close-btn" type="button" onClick={() => popupActive(false)}/>
                 <div className="popup__img"></div>
                 <div className="popup__text-content">
                 <p className="popup__header">Ремез А.</p>

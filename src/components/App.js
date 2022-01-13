@@ -8,15 +8,15 @@ import Main from "./Main";
 function App() {
 
   //Открыть попапы
-  const [isPopupOpen, setIsPopupOpen] = React.useState(false);
+  const [popupActive, setPopupActive] = React.useState(false);
 
-  function handleCardClick() {
-    setIsPopupOpen(true);
-  }
+  // function handleCardClick() {
+  //   setIsPopupOpen(true);
+  // }
 
-  function closePopup() {
-    setIsPopupOpen(false);
-  }
+  // function closePopup() {
+  //   setPopupActive(true);
+  // }
 
 
 
@@ -27,12 +27,12 @@ function App() {
       </header>
 
 
-<Main onCardClick={handleCardClick} />
+<Main popupActive={setPopupActive}/>
 
 
 <footer>Created by liza__silent</footer>
           
-{/* <Popup onClose={closePopup}/> */}
+<Popup active={popupActive} popupActive={setPopupActive}/>
 
     </div>
   );

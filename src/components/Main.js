@@ -2,7 +2,7 @@ import '../App.css';
 import React from "react";
 import initialCards from "../initials/initial";
 
-function Main() 
+function Main({popupActive}) 
 {
     return (
 
@@ -11,7 +11,7 @@ function Main()
       <ul className="wrapper"> 
   
       {initialCards.map((card, i) => (
-            <li key={card.id} className="wrapper-cell" style={{
+            <li onClick={() => popupActive(true)} key={card.id} className="wrapper-cell" style={{
               backgroundColor: card.color,
             }}></li>
           ))}
