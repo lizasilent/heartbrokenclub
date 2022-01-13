@@ -32,7 +32,7 @@ function App() {
 
 <footer>Created by liza__silent</footer>
           
-<Popup onClose={closePopup}/>
+{/* <Popup onClose={closePopup}/> */}
 
     </div>
   );
