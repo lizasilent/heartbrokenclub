@@ -17,8 +17,8 @@
   margin: 0 auto;
   display: grid;
   gap: 10px;
-  grid-template-rows:  repeat(5, 100px);
-  grid-template-columns: repeat(5, 100px);
+  grid-template-rows:  repeat(6, 100px);
+  grid-template-columns: repeat(6, 100px);
   list-style-type: none;
 
 }
