@@ -1,13 +1,17 @@
 import React from 'react';
 import '../App.css';
+import initialCards from "../initials/initial";
 
 
-function Popup({active, popupActive}) {
+function Popup({active, closePopup}) {
+
+
     return (
+
         
        <div className={`popup ${active && 'popup_is-open'}`}>
             <div className="popup__form">
-                <button className="popup__close-btn" type="button" onClick={() => popupActive(false)}/>
+                <button className="popup__close-btn" type="button" onClick={closePopup}/>
                 <div className="popup__img"></div>
                 <div className="popup__text-content">
                 <p className="popup__header">Ремез А.</p>

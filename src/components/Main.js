@@ -11,7 +11,7 @@ function Main({popupActive})
       <ul className="wrapper"> 
   
       {initialCards.map((card, i) => (
-            <li onClick={() => popupActive(true)} key={card.id} className="wrapper-cell" style={{
+            <li onClick={popupActive} key={card.id} className="wrapper-cell" style={{
               backgroundColor: card.color,
             }}></li>
           ))}

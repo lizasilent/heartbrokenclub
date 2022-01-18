@@ -2,7 +2,7 @@ import '../App.css';
 import React from "react";
 import Popup from "./Popup";
 import Main from "./Main";
-
+import initialCards from "../initials/initial";
 
 
 function App() {
@@ -10,16 +10,16 @@ function App() {
   //Открыть попапы
   const [popupActive, setPopupActive] = React.useState(false);
 
-  // function handleCardClick() {
-  //   setIsPopupOpen(true);
-  // }
 
-  // function closePopup() {
-  //   setPopupActive(true);
-  // }
+  function handleCardClick() {
+    setPopupActive(true);
+  }
 
+  function closePopup() {
+    setPopupActive(false)
+  }
 
-
+  
   return (
     <div className="app">
 
@@ -27,14 +27,17 @@ function App() {
       </header>
 
 
-<Main popupActive={setPopupActive}/>
+<Main popupActive={handleCardClick}/>
 
+<Popup active={popupActive} closePopup={closePopup} />
 
 <footer>Created by liza__silent</footer>
-          
-<Popup active={popupActive} popupActive={setPopupActive}/>
+
+    
 
     </div>
+
+
   );
 }
 
