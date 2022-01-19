@@ -9,7 +9,7 @@ function Popup({active, closePopup}) {
     return (
 
         
-       <div className={`popup ${active && 'popup_is-open'}`}>
+       <div className={`popup ${active && 'popup_is-open'}`} onClick={closePopup}>
             <div className="popup__form">
                 <button className="popup__close-btn" type="button" onClick={closePopup}/>
                 <div className="popup__img"></div>
