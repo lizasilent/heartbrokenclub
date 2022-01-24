@@ -9,17 +9,22 @@ function App() {
 
   //Открыть попапы
   const [popupActive, setPopupActive] = React.useState(false);
+  const [selectedCard, setSelectedCard] = React.useState(false);
 
 
-  function handleCardClick() {
+  function handleCardClick(card) {
     setPopupActive(true);
+    setSelectedCard(card);
   }
 
   function closePopup() {
-    setPopupActive(false)
+    setPopupActive(false);
+    setSelectedCard(false);
   }
 
-  
+
+
+
   return (
     <div className="app">
 
@@ -27,9 +32,9 @@ function App() {
       </header>
 
 
-<Main popupActive={handleCardClick}/>
+<Main popupActive={handleCardClick} cards={initialCards}/>
 
-<Popup active={popupActive} closePopup={closePopup} />
+<Popup active={popupActive} closePopup={closePopup} card={selectedCard}/>
 
 <footer>Created by liza__silent</footer>
 
