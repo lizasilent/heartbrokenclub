@@ -1,3 +1,7 @@
+*{
+  box-sizing:border-box;
+}
+
 .app {
   text-align: center;
 }
@@ -23,9 +27,6 @@
 
 }
 
-/* .wrapper-cell{
-  background: linear-gradient(0.25turn, #830404, #ff6600);
-} */
 
 .wrapper-cell:hover{
   opacity: 0.8;
@@ -87,8 +88,8 @@
 
 .popup__img{
   position: relative;
-  background-image: url("../../heartbrokenclub/src/images/1.jpg");
-  background-position: center;
+  background-image: url(https://www.podpisnie.ru/upload/iblock/391/326ly2uv35dzhyhr19nq02f3ksce5l1w.jpg);
+  background-position: no-repeat;
   background-repeat: no-repeat;
   width: 50%;
   margin-right: 30px;

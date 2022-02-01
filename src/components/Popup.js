@@ -5,7 +5,7 @@ function Popup({ card, closePopup }) {
   return (
     <div
       className={`popup ${card ? "popup_is-open" : ""}`}
-      onClick={closePopup}
+      
     >
       <div className="popup__form">
         <button
@@ -13,11 +13,11 @@ function Popup({ card, closePopup }) {
           type="button"
           onClick={closePopup}
         />
-        <div className="popup__img"></div>
+        <div className="popup__img" ></div>
         <div className="popup__text-content">
           <p className="popup__header">{card.author}</p>
           <p className="popup__header">{card.book}</p>
-          <a className="popup__link" href={card.link}>
+          <a className="popup__link" href={card.link} target="blank">
             <p>Купить книгу</p>
           </a>
           <p className="popup__description">{card.text}</p>

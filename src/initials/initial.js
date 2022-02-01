@@ -1,7 +1,8 @@
 const initialCards = [
   {
     id: 1,
-    image:"",
+    
+    image: "../src/images/1.jpeg",
     book: "Девушка на качелях",
     author: "Ричард Адамс",
     link: "https://www.podpisnie.ru/books/devushka-na-kachelyakh/",
@@ -40,7 +41,7 @@ const initialCards = [
 
   {
     id: 5,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/391/326ly2uv35dzhyhr19nq02f3ksce5l1w.jpg",
     book: "Zoo, или письма о нелюбви",
     author: "Виктор Шкловский",
     link: "https://www.podpisnie.ru/books/sobranie-sochineniy-tom-2-biografiya/",
