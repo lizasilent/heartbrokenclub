@@ -107,7 +107,7 @@
   padding: 20px;
   margin: 0 auto;
   width: 698px;
-  height: 511px;
+  min-height: 511px;
   border-radius: 10px;
   box-sizing: border-box;
 }
@@ -130,7 +130,6 @@
 
 .popup__img {
   position: relative;
-  background-image: url(https://www.podpisnie.ru/upload/iblock/391/326ly2uv35dzhyhr19nq02f3ksce5l1w.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 50%;

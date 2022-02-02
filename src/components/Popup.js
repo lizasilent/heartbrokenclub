@@ -13,7 +13,7 @@ function Popup({ card, closePopup }) {
           type="button"
           onClick={closePopup}
         />
-        <div className="popup__img" ></div>
+        <div className="popup__img" style={{backgroundImage: `url(${card.image})`,}}></div>
         <div className="popup__text-content">
           <p className="popup__header">{card.author}</p>
           <p className="popup__header">{card.book}</p>

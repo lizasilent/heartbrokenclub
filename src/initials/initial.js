@@ -2,7 +2,7 @@ const initialCards = [
   {
     id: 1,
     
-    image: "../src/images/1.jpeg",
+    image: "https://www.podpisnie.ru/upload/iblock/9f7/oy8lqh4epa4bn4j7cdhrflnqvna0onpk.jpg",
     book: "Девушка на качелях",
     author: "Ричард Адамс",
     link: "https://www.podpisnie.ru/books/devushka-na-kachelyakh/",
@@ -11,7 +11,7 @@ const initialCards = [
   },
   {
     id: 2,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/b9a/p4koe82dbgfb8vwtu45jta1m7xnlha5d.jpg",
     book: "Волхв",
     author: "Джон Фаулз",
     link: "https://www.podpisnie.ru/books/volkhv-s-ill/",
@@ -21,7 +21,7 @@ const initialCards = [
 
   {
     id: 3,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/099/mpsir0a413ajxbufdwpymux58s491uyg.jpg",
     book: "Последняя любовь в Константинополе",
     author: "Милорад Павич",
     link: "https://www.podpisnie.ru/books/poslednyaya-lyubov-v-konstantinopole/",
@@ -31,7 +31,7 @@ const initialCards = [
 
   {
     id: 4,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/2ec/hvw8fiioltnezqdirkqelbv8rd8zn12y.jpg",
     book: "Светила",
     author: "Элеонор Каттон",
     link: "https://www.podpisnie.ru/books/svetila/",
@@ -51,7 +51,7 @@ const initialCards = [
 
   {
     id: 6,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/d94/8ebz82zph46iqz2x2g111krk0o2yu7ls.jpg",
     book: "Современная любовь",
     author: "Констанс де Жонг",
     link: "https://www.podpisnie.ru/books/sovremennaya-lyubov/",
@@ -61,7 +61,7 @@ const initialCards = [
 
   {
     id: 7,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/780/hkzerpokibfhwbgrghun5zh57w05skvq.jpg",
     book: "Тит Беренику не любил",
     author: "Натали Азуле",
     link: "https://www.podpisnie.ru/books/tit-bereniku-ne-lyubil/",
@@ -71,7 +71,7 @@ const initialCards = [
 
   {
     id: 8,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/b5e/s7tok5ww0ughgzs4es5qbvzdheo9tz4w.jpg",
     book: "Ольга",
     author: "Бернхард Шлинк.",
     link: "https://www.podpisnie.ru/books/ol-ga-myagk-obl/",
@@ -81,7 +81,7 @@ const initialCards = [
 
   {
     id: 9,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/ad3/2csfee8qrtb49zy1a99lar7e44t4waga.jpg",
     book: "Мосты округа Мэдисон",
     author: "Роберт Уоллер",
     link: "https://www.podpisnie.ru/books/mosty-okruga-medison-roman-2/",
@@ -91,7 +91,7 @@ const initialCards = [
 
   {
     id: 10,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/fd6/ftdthf695w8w3ntqkytrzp3nae4etfn2.jpg",
     book: "Души",
     author: "Рои Хен",
     link: "https://www.podpisnie.ru/books/fantom-dushi/",
@@ -101,7 +101,7 @@ const initialCards = [
 
   {
     id: 11,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/469/2d8rk4o65l26z8dq56rd1r1t1l4lrb8l.jpg",
     book: "Музей современной любви",
     author: "Хизер Роуз",
     link: "https://www.podpisnie.ru/books/muzey-sovremennoy-lyubvi/",
@@ -111,7 +111,7 @@ const initialCards = [
 
   {
     id: 12,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/f57/phgldifol1ygfuj400cwzuv355gfctex.jpg",
     book: "Женщина на кресте",
     author: "Анна Мар",
     link: "https://www.podpisnie.ru/books/zhenshchina-na-kreste/",
@@ -121,7 +121,7 @@ const initialCards = [
 
   {
     id: 13,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/68b/bwo3862c28ya2g8kyr8medyvrbqxyfj0.jpg",
     book: "Грех",
     author: "Паскуале Феста-Кампаниле",
     link: "https://www.podpisnie.ru/books/grekh-7/",
@@ -131,7 +131,7 @@ const initialCards = [
 
   {
     id: 14,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/f22/wajs5i6stur8xo2beiztkle9tv2iowq6.jpg",
     book: "Роман с кокаином",
     author: "Михаил Агеев",
     link: "https://www.podpisnie.ru/books/roman-s-kokainom-3/",
@@ -141,7 +141,7 @@ const initialCards = [
 
   {
     id: 15,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/5a8/tv0mowsg1780oxrsu1ntiim4qd5jj4fr.jpg",
     book: "Пена дней",
     author: "Борис Виан",
     link: "https://www.podpisnie.ru/books/pena-dney-i-drugie-istorii/",
@@ -151,7 +151,7 @@ const initialCards = [
 
   {
     id: 16,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/162/xddqyu9ouo0yr3xn9qe53tz0dm7n85f5.jpg",
     book: "Финист-Ясный сокол",
     author: "Андрей Рубанов",
     link: "https://www.podpisnie.ru/books/finist-yasnyy-sokol-roman/",
@@ -161,7 +161,7 @@ const initialCards = [
 
   {
     id: 17,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/c1b/ige3nm6rg4i1szm2i0cu7df4nu2eddl8.jpg",
     book: "Звездная пыль",
     author: "Нил Гейман",
     link: "https://www.podpisnie.ru/books/zvezdnaya-pyl-7/",
@@ -171,7 +171,7 @@ const initialCards = [
 
   {
     id: 18,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/30e/3rwtj3e5m2mipxiruosn1iiglwnmw3qw.jpg",
     book: "Домик в Оллингтоне",
     author: "Энтони Троллоп",
     link: "https://www.podpisnie.ru/books/domik-v-ollingtone/",
@@ -181,7 +181,7 @@ const initialCards = [
 
   {
     id: 19,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/37b/talb3axx5rs5t031olui67a9o1v3v8fr.jpg",
     book: "Исповедь глупца",
     author: "Август Стринберг",
     link: "https://www.podpisnie.ru/books/ispoved-gluptsa/",
@@ -191,7 +191,7 @@ const initialCards = [
 
   {
     id: 20,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/21f/mdic0kv8ift59buvy4f1tm1qew8vljbd.jpg",
     book: "Вечер у Клэр",
     author: "Гайто Газданов",
     link: "https://www.podpisnie.ru/books/vecher-u-kler/",
@@ -201,7 +201,7 @@ const initialCards = [
 
   {
     id: 21,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/124/qxaf5y5ad9ziomip6oa5pxnb5e1kqxou.jpg",
     book: "Письмовник",
     author: "Михаил Шишкин",
     link: "https://www.podpisnie.ru/books/pis-movnik-prem-bol-shaya-kniga/",
@@ -211,7 +211,7 @@ const initialCards = [
 
   {
     id: 22,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/0c3/sxs5y5z85zimdtzi6l94668nthr6n4s3.jpg",
     book: "Обладать",
     author: "Антония Байет",
     link: "https://www.podpisnie.ru/books/obladat/",
@@ -221,7 +221,7 @@ const initialCards = [
 
   {
     id: 23,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/cba/mpwpxhvtngs35t2qvm7r6c0cmpcl6zaz.jpg",
     book: "Али и Нино",
     author: "Курбан Саид",
     link: "https://www.podpisnie.ru/books/ali-i-nino-kinooblozhka-myagk-obl/",
@@ -231,7 +231,7 @@ const initialCards = [
 
   {
     id: 24,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/d24/nd0lcg7wumknd8235cztliewxuq48p26.jpg",
     book: "Повесть о Сонечке",
     author: "Марина Цветаева",
     link: "https://www.podpisnie.ru/books/povest-o-sonechke-nov-obl/",
@@ -241,7 +241,7 @@ const initialCards = [
 
   {
     id: 25,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/f56/oxt15vbzzjuu1xs1dv48gz1ia66f2eg8.jpg",
     book: "Возможности любовного романа",
     author: "Немец Я.",
     link: "https://www.podpisnie.ru/books/vozmozhnosti-lyubovnogo-romana/",
@@ -251,7 +251,7 @@ const initialCards = [
 
   {
     id: 26,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/ee5/0fa3w9j2vc7nwb3sp8pualpre9dhmi5a.jpg",
     book: "Мемуары гейши",
     author: "Артур Голден",
     link: "https://www.podpisnie.ru/books/memuary-geyshi-2/",
@@ -261,7 +261,7 @@ const initialCards = [
 
   {
     id: 27,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/686/a0ilsw7mcg5v2z0p4826bx3tgw5884zy.jpg",
     book: "Время сердца",
     author: "Пауль Целан, Ингебор Бахман",
     link: "https://www.podpisnie.ru/books/vremya-serdtsa-perepiska-ingeborg-bahman-i-paulya-tselana/",
@@ -271,7 +271,7 @@ const initialCards = [
 
   {
     id: 28,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/652/faeyna1z44ck14i9ew2r6uj49kn66rhl.jpg",
     book: "Страдания юного Вертера",
     author: "Иоганн Вольфганг Гете",
     link: "https://www.podpisnie.ru/books/stradaniya-yunogo-vertera-per-eyvadisa/",
@@ -281,7 +281,7 @@ const initialCards = [
 
   {
     id: 29,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/04f/zfgz5iy0ybvsh0suk33lfm57kkv9b1xj.jpg",
     book: "Любовник леди Чаттерли",
     author: "Дэвид Герберт Лоуренс",
     link: "https://www.podpisnie.ru/books/lyubovnik-ledi-chatterli/",
@@ -291,7 +291,7 @@ const initialCards = [
 
   {
     id: 30,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/650/d2gnw479xm1vlbyx1zb875vde9hdgq70.jpg",
     book: "Дьявол во плоти",
     author: "Реймон Родиге",
     link: "https://www.podpisnie.ru/books/dyavol-vo-ploti/",
@@ -301,7 +301,7 @@ const initialCards = [
 
   {
     id: 31,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/ff9/g06we8p3zxhzmlshrnlxlx53ehqfvhvl.jpg",
     book: "Порочная страсть",
     author: "Колин Маккалоу",
     link: "https://www.podpisnie.ru/books/porochnaya-strast/",
@@ -311,7 +311,7 @@ const initialCards = [
 
   {
     id: 32,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/d5b/5201p918ixtee6fnd9x320b0a7q7zkj8.jpg",
     book: "Шагреневая кожа",
     author: "Оноре де Бальзак",
     link: "https://www.podpisnie.ru/books/shagrenevaya-kozha-8/",
@@ -321,7 +321,7 @@ const initialCards = [
 
   {
     id: 33,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/ed9/pyeo6zbv42fr6tqrormyuh11be981x3a.jpg",
     book: "Грозовой перевал",
     author: "Эмили Бронте",
     link: "https://www.podpisnie.ru/books/grozovoy-pereval-16/",
@@ -331,7 +331,7 @@ const initialCards = [
 
   {
     id: 34,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/ab3/7j8cso1s2ka0iiyj9u1w2gndw44mjv23.jpg",
     book: "Доктор Живаго",
     author: "Борис Пастернак",
     link: "https://www.podpisnie.ru/books/doktor-zhivago-18/",
@@ -341,7 +341,7 @@ const initialCards = [
 
   {
     id: 35,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/3ae/o7otkh84uc3g57l6txp4y0qu9anqlnks.jpg",
     book: "Венок ангелов",
     author: "Гертруд фон Лефорт",
     link: "https://www.podpisnie.ru/books/venok-angelov/",
@@ -351,7 +351,7 @@ const initialCards = [
 
   {
     id: 36,
-    image:"",
+    image:"https://www.podpisnie.ru/upload/iblock/4ea/8gwggpqcn8hzeswd91dbj5s4m3nz1c91.jpg",
     book: "История одного супружества",
     author: "Эндрю Шон",
     link: "https://www.podpisnie.ru/books/istoriya-odnogo-supruzhestva/",
