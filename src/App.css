@@ -1,14 +1,17 @@
-*{
-  box-sizing:border-box;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
 }
 
 .app {
   text-align: center;
 }
 
-.main{
+.main {
   margin: 0 auto;
-  padding:5% 15%;
+  padding: 3% 15%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -21,30 +24,69 @@
   margin: 0 auto;
   display: grid;
   gap: 10px;
-  grid-template-rows:  repeat(6, 100px);
+  grid-template-rows: repeat(6, 100px);
   grid-template-columns: repeat(6, 100px);
   list-style-type: none;
-
 }
 
-
-.wrapper-cell:hover{
+.wrapper-cell:hover {
   opacity: 0.8;
   cursor: pointer;
 }
 
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  min-height: 120px;
+  padding: 20px;
+}
+
+.header__content {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.header__logo {
+  background-image: url(../src/images/new_logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 145px;
+  min-height: 33px;
+  margin-right: 20px;
+}
+
+.header__text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.header__text_style {
+  background: linear-gradient(45deg, #f81599 33%, #ff0224 66%, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #df0b1d;
+
+}
+
 .popup {
-  background-color: rgba(0,0,0,0.5);
-  width:100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
   min-height: 100%;
-  overflow:hidden;
-  position:fixed;
+  overflow: hidden;
+  position: fixed;
   top: 0;
   left: 0;
   visibility: hidden;
   opacity: 0;
-  transition: visibility .5s, opacity .5s linear;
-  display:flex;
+  transition: visibility 0.5s, opacity 0.5s linear;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -58,39 +100,39 @@
 
 .popup__form {
   display: flex;
-  position:relative;
+  position: relative;
   background-color: white;
   flex-direction: row;
   justify-content: center;
   padding: 20px;
-  margin:0 auto;
+  margin: 0 auto;
   width: 698px;
-  height: 511px; 
+  height: 511px;
   border-radius: 10px;
   box-sizing: border-box;
 }
 
 .popup__close-btn {
   position: absolute;
-  top:-40px;
+  top: -40px;
   right: -40px;
   background-color: transparent;
   background-image: url(../src/images/close_icon.png);
   background-repeat: no-repeat;
   background-position: center;
-  border:0;
+  border: 0;
   padding: 0;
   min-height: 40px;
   width: 40px;
-  cursor:pointer;
+  cursor: pointer;
   outline: none;
 }
 
-.popup__img{
+.popup__img {
   position: relative;
   background-image: url(https://www.podpisnie.ru/upload/iblock/391/326ly2uv35dzhyhr19nq02f3ksce5l1w.jpg);
-  background-position: no-repeat;
   background-repeat: no-repeat;
+  background-size: contain;
   width: 50%;
   margin-right: 30px;
 }
@@ -100,29 +142,28 @@
   max-width: 50%;
 }
 
-.popup__header{
-  position:relative;
+.popup__header {
+  position: relative;
   font-style: normal;
   font-weight: 900;
   font-size: 20px;
   line-height: 1.2;
   color: #000000;
-  margin-top:0;
+  margin-top: 0;
   margin-bottom: 10px;
 }
 
-.popup__link{
-text-decoration: none;
-
+.popup__link {
+  text-decoration: none;
 }
 
-.popup__description{
-  position:relative;
+.popup__description {
+  position: relative;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   color: #000000;
-  margin-top:0;
+  margin-top: 0;
   margin-bottom: 10px;
 }
