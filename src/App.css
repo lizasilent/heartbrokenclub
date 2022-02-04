@@ -100,7 +100,7 @@
 .popup__form {
   display: flex;
   position: relative;
-  background-color: rgb(248, 214, 214);
+  background-color: rgb(248, 222, 222);
   padding: 10px;
   margin: 0 auto;
   width: 698px;
@@ -118,7 +118,7 @@
   width: 698px;
   min-height: 200px;
   box-sizing: border-box;
-  border: 1px solid red;
+  border: 1px solid rgb(207, 1, 1);
 }
 
 .popup__close-btn {
@@ -150,12 +150,14 @@
   line-height: 1.2;
   color: #000000;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .popup__header_red {
   font-family: 'Raleway', sans-serif;
-  color: #ff0000;
+  font-weight: normal;
+  color: rgb(207, 1, 1);
+  font-size: 40px;
   
 }
 
@@ -171,10 +173,9 @@
 
 .popup__description {
   font-family: 'Source Serif Pro', serif;
+  /* font-weight: bolder; */
   width: 70%;
   position: relative;
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   color: #000000;
@@ -200,8 +201,8 @@
 
 .popup__link {
   font-family: 'Source Serif Pro', serif;
-  font-weight: lighter;
+  font-weight: bolder;
   text-decoration: none;
   font-style : italic;
-  color: red;
+  color: rgb(207, 1, 1);
 }
