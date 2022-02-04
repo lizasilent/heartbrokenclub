@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@500;700&family=Raleway:wght@100&family=Source+Serif+Pro:ital,wght@0,300;1,200&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -98,20 +96,6 @@
   opacity: 1;
 }
 
-/* .popup__form {
-  display: flex;
-  position: relative;
-  background-color: white;
-  flex-direction: row;
-  justify-content: center;
-  padding: 20px;
-  margin: 0 auto;
-  width: 698px;
-  min-height: 511px;
-  border-radius: 10px;
-  box-sizing: border-box;
-} */
-
 
 .popup__form {
   display: flex;
@@ -159,6 +143,7 @@
 }
 
 .popup__header {
+  font-family: 'Playfair Display', serif;
   position: relative;
   font-style: normal;
   font-size: 20px;
@@ -169,6 +154,7 @@
 }
 
 .popup__header_red {
+  font-family: 'Raleway', sans-serif;
   color: #ff0000;
   
 }
@@ -184,6 +170,7 @@
 
 
 .popup__description {
+  font-family: 'Source Serif Pro', serif;
   width: 70%;
   position: relative;
   font-style: normal;
@@ -202,9 +189,6 @@
 
 .popup__img_container{
   width: 30%;
-  /* display: flex;
-  position: relative;
-  flex-direction: column; */
 }
 
 .popup__img {
@@ -215,6 +199,9 @@
 }
 
 .popup__link {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: lighter;
   text-decoration: none;
+  font-style : italic;
   color: red;
 }
