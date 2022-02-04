@@ -118,7 +118,7 @@
   width: 698px;
   min-height: 200px;
   box-sizing: border-box;
-  border: 1px solid rgb(207, 1, 1);
+  border: 1px solid rgb(233, 2, 2);
 }
 
 .popup__close-btn {
@@ -138,8 +138,8 @@
 }
 
 .popup__text-content_header {
-  height: 20%;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .popup__header {
@@ -147,27 +147,25 @@
   position: relative;
   font-style: normal;
   font-size: 20px;
-  line-height: 1.2;
   color: #000000;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 0;
 }
 
 .popup__header_red {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
-  color: rgb(207, 1, 1);
+  color: red;
   font-size: 40px;
+  line-height: 1;
   
 }
 
 .popup__text-content_main {
-  height: 80%;
   display: flex;
   position: relative;
   flex-direction: row;
   align-content: flex-start;
-  margin-top: 40px;
 }
 
 
@@ -176,7 +174,7 @@
   /* font-weight: bolder; */
   width: 70%;
   position: relative;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.2;
   color: #000000;
   margin-top: 0;
@@ -204,5 +202,5 @@
   font-weight: bolder;
   text-decoration: none;
   font-style : italic;
-  color: rgb(207, 1, 1);
+  color: red;
 }
