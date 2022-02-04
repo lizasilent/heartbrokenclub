@@ -171,7 +171,7 @@
 
 .popup__description {
   font-family: 'Source Serif Pro', serif;
-  /* font-weight: bolder; */
+  font-weight: normal;
   width: 70%;
   position: relative;
   font-size: 18px;
@@ -179,6 +179,7 @@
   color: #000000;
   margin-top: 0;
   margin-bottom: 10px;
+  margin: 0 0 10px 5px;
   text-align: left;
 }
 
