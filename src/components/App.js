@@ -28,7 +28,7 @@ function App() {
 
       <Popup active={popupActive} closePopup={closePopup} card={selectedCard} />
 
-      <footer>Created by liza__silent</footer>
+      <footer></footer>
     </div>
   );
 }

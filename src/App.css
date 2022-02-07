@@ -58,6 +58,7 @@
   margin-right: 20px;
 }
 
+
 .header__text {
   font-family: "Quicksand", sans-serif;
   font-size: 20px;
@@ -158,7 +159,6 @@
   color: red;
   font-size: 40px;
   line-height: 1;
-  
 }
 
 .popup__text-content_main {
@@ -183,9 +183,19 @@
   text-align: left;
 }
 
+.popup__logo{
+  background-image: url(../src/images/heart_logo.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 18px;
+   min-height: 33px;
+   margin-right: 20px;
+ }
+
 .popup__description p {
   margin: 0;
 }
+
 
 .popup__img_container{
   width: 30%;
