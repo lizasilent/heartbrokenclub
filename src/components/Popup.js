@@ -21,7 +21,7 @@ function Popup({ card, closePopup }) {
 
           <div className="popup__text-content_main">
             <div className="popup__description">
-            <p>{card.text}</p><div className="popup__logo"></div>
+            <p>{card.text}<div className="popup__logo"></div></p>
             </div>
             <div  className="popup__img_container">
             <div
