@@ -191,17 +191,24 @@
   }
 }
 
-@media screen and (max-width: 760px) {
+/* @media screen and (max-width: 760px) {
    .popup__form {
     max-width: 500px;
   }
-}
+} */
 
 @media screen and (max-width: 760px) {
   .popup__form {
     max-width: 80%;
  }
 }
+
+@media screen and (max-width: 350px) {
+  .popup__form2 {
+    max-width: 100%;
+ }
+}
+
 
 
 .popup__close-btn {
@@ -322,6 +329,13 @@
  
 }
 
+
+@media screen and (max-width: 440px) {
+  .popup__description{
+    font-size: 12px;
+  }
+ 
+}
 .popup__logo {
   display: inline-block;
   background-image: url(../src/images/heart_logo.svg);
@@ -362,12 +376,20 @@
   
 }
 
-@media screen and (max-width: 760px) {
+/* @media screen and (max-width: 760px) {
 
   .popup__img {
     min-height: 100px;
   }
   
+} */
+
+@media screen and (max-width: 440px) {
+  .popup__link{
+    font-size: 14px;
+  }
+  
+ 
 }
 
 
