@@ -1,10 +1,7 @@
-import "../App.css";
+import "./Header.css";
 import React from "react";
 
 function Header() {
-
-  
-
   return (
     <header className="header">
       <div className="header__content">
@@ -13,8 +10,6 @@ function Header() {
         <p className="header__text header__text_style">heartbrokenclub</p>
       </div>
     </header>
-
-
   );
 }
 

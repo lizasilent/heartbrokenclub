@@ -1,9 +1,7 @@
-import "../App.css";
+import "./Main.css";
 import React from "react";
 
 function Main({ popupActive, cards }) {
-
-
   return (
     <main className="main">
       <ul className="wrapper">
