@@ -1,14 +1,17 @@
 import React from "react";
 import "./Popup.css";
 
+
+
 function Popup({ card, closePopup }) {
+
   return (
     <div className={`popup ${card ? "popup_is-open" : ""}`}>
       <div className="popup__form">
-        <button
+        <button onClick={closePopup}
           className="popup__close-btn"
           type="button"
-          onClick={closePopup}
+          
         />
         <div className="popup__form2">
           <div className="popup__text-content_header">
