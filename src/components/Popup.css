@@ -2,7 +2,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   min-height: 100%;
-  overflow: hidden;
+  overflow-y: scroll;
   position: fixed;
   top: 0;
   left: 0;
@@ -14,6 +14,7 @@
   justify-content: center;
   align-items: center;
   z-index: 7;
+  padding: 100px 0;
 }
 
 .popup_is-open {
@@ -23,13 +24,16 @@
 
 .popup__form {
   display: flex;
-  position: relative;
+  position: absolute;
+  left: 50%;
+  top: 10vh;
+  transform: translateX(-50%);
   background-color: rgb(248, 222, 222);
   padding: 10px;
   margin: 0 auto;
   min-height: 200px;
   box-sizing: border-box;
-  max-width: 750px;
+  width: 750px;
 }
 
 .popup__form2 {
@@ -149,11 +153,10 @@
   }
 
   .popup__close-btn {
-    min-height: 25px;
-    width: 25px;
-    top: -29px;
-    right: -29px;
-
+    min-height: 20px;
+    width: 20px;
+    top: 20px;
+    right: 20px;
   }
 
   .popup__text-content_header {
@@ -219,7 +222,7 @@
   }
 
   .popup__link {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .popup__img {
