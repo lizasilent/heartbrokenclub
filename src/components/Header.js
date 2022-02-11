@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header__content">
-        <div className="header__logo"></div>
+        <a href="https://www.podpisnie.ru/" target="_blank"><div className="header__logo"></div></a>
         <p className="header__text">x</p>
         <p className="header__text header__text_style">heartbrokenclub</p>
       </div>
