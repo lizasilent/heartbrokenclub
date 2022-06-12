@@ -20,8 +20,6 @@ function App() {
     setSelectedCard(false);
   }
 
-  // function PopupForm() {var scrolled = $(window).scrollTop()+60;
-  //   $('твойпопап').css('top', scrolled);}
 
   return (
     <div className="app">
