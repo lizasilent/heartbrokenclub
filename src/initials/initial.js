@@ -1,8 +1,7 @@
 const initialCards = [
   {
     id: 1,
-    
-    image: "https://www.podpisnie.ru/upload/iblock/9f7/oy8lqh4epa4bn4j7cdhrflnqvna0onpk.jpg",
+    image: "https://www.podpisnie.ru/upload/resize_cache/iblock/ed1/1262_575_1/ruaauopr2h8d3bo34tjdr303s17bllal.jpg",
     book: "Девушка на качелях",
     author: "Ричард Адамс",
     link: "https://www.podpisnie.ru/books/devushka-na-kachelyakh/",
@@ -11,7 +10,7 @@ const initialCards = [
   },
   {
     id: 2,
-    image:"https://www.podpisnie.ru/upload/iblock/b9a/p4koe82dbgfb8vwtu45jta1m7xnlha5d.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/41b/1262_575_1/42orml3x9r5iicmxe6wvi3hvdzvxoy64.jpg",
     book: "Волхв",
     author: "Джон Фаулз",
     link: "https://www.podpisnie.ru/books/volkhv-s-ill/",
@@ -21,7 +20,7 @@ const initialCards = [
 
   {
     id: 3,
-    image:"https://www.podpisnie.ru/upload/iblock/099/mpsir0a413ajxbufdwpymux58s491uyg.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/f7b/1262_575_1/2miupdl92d8fbzt15zmw5limyl4ovga0.jpg",
     book: "Последняя любовь в Константинополе",
     author: "Милорад Павич",
     link: "https://www.podpisnie.ru/books/poslednyaya-lyubov-v-konstantinopole/",
@@ -31,7 +30,7 @@ const initialCards = [
 
   {
     id: 4,
-    image:"https://www.podpisnie.ru/upload/iblock/650/d2gnw479xm1vlbyx1zb875vde9hdgq70.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/b57/1262_575_1/4jupwqhbbqjg7d6zj86dch8jovr9u7e5.jpg",
     book: "Дьявол во плоти",
     author: "Реймон Родиге",
     link: "https://www.podpisnie.ru/books/dyavol-vo-ploti/",
@@ -41,7 +40,7 @@ const initialCards = [
 
   {
     id: 5,
-    image:"https://www.podpisnie.ru/upload/iblock/391/326ly2uv35dzhyhr19nq02f3ksce5l1w.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/33e/1262_575_1/vpkabzred1ryvcuz8hy9znxutxuugf2t.jpg",
     book: "Zoo, или письма о нелюбви",
     author: "Виктор Шкловский",
     link: "https://www.podpisnie.ru/books/sobranie-sochineniy-tom-2-biografiya/",
@@ -51,7 +50,7 @@ const initialCards = [
 
   {
     id: 6,
-    image:"https://www.podpisnie.ru/upload/iblock/d94/8ebz82zph46iqz2x2g111krk0o2yu7ls.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/99f/1262_575_1/nhhajpupnkvwgbty6nfstfj2avo2l9ed.jpg",
     book: "Современная любовь",
     author: "Констанс де Жонг",
     link: "https://www.podpisnie.ru/books/sovremennaya-lyubov/",
@@ -61,7 +60,7 @@ const initialCards = [
 
   {
     id: 7,
-    image:"https://www.podpisnie.ru/upload/iblock/780/hkzerpokibfhwbgrghun5zh57w05skvq.jpg",
+    image:"https://www.podpisnie.ru/upload/iblock/450/s419kaxn17vzyhtmfpsylkkije9qjgqs.jpg",
     book: "Тит Беренику не любил",
     author: "Натали Азуле",
     link: "https://www.podpisnie.ru/books/tit-bereniku-ne-lyubil/",
@@ -71,7 +70,7 @@ const initialCards = [
 
   {
     id: 8,
-    image:"https://www.podpisnie.ru/upload/iblock/b5e/s7tok5ww0ughgzs4es5qbvzdheo9tz4w.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/db3/1262_575_1/201bbzb652f7jgwtfxpojy5n10sha123.jpg",
     book: "Ольга",
     author: "Бернхард Шлинк",
     link: "https://www.podpisnie.ru/books/ol-ga-myagk-obl/",
@@ -81,7 +80,7 @@ const initialCards = [
 
   {
     id: 9,
-    image:"https://www.podpisnie.ru/upload/iblock/0c3/sxs5y5z85zimdtzi6l94668nthr6n4s3.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/f02/1262_575_1/bclz404511dkqmql6gqoxn7ie2anwe6i.jpg",
     book: "Обладать",
     author: "Антония Байет",
     link: "https://www.podpisnie.ru/books/obladat/",
@@ -91,7 +90,7 @@ const initialCards = [
 
   {
     id: 10,
-    image:"https://www.podpisnie.ru/upload/iblock/fd6/ftdthf695w8w3ntqkytrzp3nae4etfn2.jpg",
+    image:"https://www.podpisnie.ru/upload/iblock/3f6/vm3k3d83389t5vc4ekp7thitcw2uk3uw.jpg",
     book: "Души",
     author: "Рои Хен",
     link: "https://www.podpisnie.ru/books/fantom-dushi/",
@@ -101,7 +100,7 @@ const initialCards = [
 
   {
     id: 11,
-    image:"https://www.podpisnie.ru/upload/iblock/469/2d8rk4o65l26z8dq56rd1r1t1l4lrb8l.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/fbe/1262_575_1/vmg44oiluknvby2o9l2pa5lh7hq061qs.jpg",
     book: "Музей современной любви",
     author: "Хизер Роуз",
     link: "https://www.podpisnie.ru/books/muzey-sovremennoy-lyubvi/",
@@ -111,7 +110,7 @@ const initialCards = [
 
   {
     id: 12,
-    image:"https://www.podpisnie.ru/upload/iblock/f57/phgldifol1ygfuj400cwzuv355gfctex.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/842/1262_575_1/6638fi89d1cw1e5bsbi0sezk4ylp5d7v.jpg",
     book: "Женщина на кресте",
     author: "Анна Мар",
     link: "https://www.podpisnie.ru/books/zhenshchina-na-kreste/",
@@ -121,7 +120,7 @@ const initialCards = [
 
   {
     id: 13,
-    image:"https://www.podpisnie.ru/upload/iblock/68b/bwo3862c28ya2g8kyr8medyvrbqxyfj0.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/a76/1262_575_1/mldr27bt6uih0ybjt68uz52w9ape64ao.jpg",
     book: "Грех",
     author: "Паскуале Феста-Кампаниле",
     link: "https://www.podpisnie.ru/books/grekh-7/",
@@ -141,7 +140,7 @@ const initialCards = [
 
   {
     id: 15,
-    image:"https://www.podpisnie.ru/upload/iblock/5a8/tv0mowsg1780oxrsu1ntiim4qd5jj4fr.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/fe6/1262_575_1/q292c47pk5a4qxtmcb9mrv3kr6kthgbp.jpg",
     book: "Пена дней",
     author: "Борис Виан",
     link: "https://www.podpisnie.ru/books/pena-dney-i-drugie-istorii/",
@@ -170,7 +169,7 @@ const initialCards = [
 
   {
     id: 18,
-    image:"https://www.podpisnie.ru/upload/iblock/30e/3rwtj3e5m2mipxiruosn1iiglwnmw3qw.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/4bf/1262_575_1/wlecj33r5ndy1scf17zlnn4g02njn82q.jpg",
     book: "Домик в Оллингтоне",
     author: "Энтони Троллоп",
     link: "https://www.podpisnie.ru/books/domik-v-ollingtone/",
@@ -180,7 +179,7 @@ const initialCards = [
 
   {
     id: 19,
-    image:"https://www.podpisnie.ru/upload/iblock/37b/talb3axx5rs5t031olui67a9o1v3v8fr.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/bdb/1262_575_1/b30tmfunqbuau1tuw6gc97t8nw7ge4eb.jpg",
     book: "Исповедь глупца",
     author: "Август Стринберг",
     link: "https://www.podpisnie.ru/books/ispoved-gluptsa/",
@@ -190,7 +189,7 @@ const initialCards = [
 
   {
     id: 20,
-    image:"https://www.podpisnie.ru/upload/iblock/21f/mdic0kv8ift59buvy4f1tm1qew8vljbd.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/00f/1262_575_1/kbcbjb9vusv9tdx3lskp4kd4o3wzg0u9.jpg",
     book: "Вечер у Клэр",
     author: "Гайто Газданов",
     link: "https://www.podpisnie.ru/books/vecher-u-kler/",
@@ -200,7 +199,7 @@ const initialCards = [
 
   {
     id: 21,
-    image:"https://www.podpisnie.ru/upload/iblock/124/qxaf5y5ad9ziomip6oa5pxnb5e1kqxou.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/ccc/1262_575_1/rc3b68s1x2wgjvhqglikoccc25o61zom.jpg",
     book: "Письмовник",
     author: "Михаил Шишкин",
     link: "https://www.podpisnie.ru/books/pis-movnik-prem-bol-shaya-kniga/",
@@ -210,7 +209,7 @@ const initialCards = [
 
   {
     id: 22,
-    image:"https://www.podpisnie.ru/upload/iblock/ad3/2csfee8qrtb49zy1a99lar7e44t4waga.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/05a/1262_575_1/izf1oy9xpnqshlxp333v3a07nb23kep8.jpg",
     book: "Мосты округа Мэдисон",
     author: "Роберт Уоллер",
     link: "https://www.podpisnie.ru/books/mosty-okruga-medison-roman-2/",
@@ -220,17 +219,17 @@ const initialCards = [
 
   {
     id: 23,
-    image:"https://www.podpisnie.ru/upload/iblock/cba/mpwpxhvtngs35t2qvm7r6c0cmpcl6zaz.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/0e4/1262_575_1/o66zync0z5jhc7zbjfx8jw5xgnx7ikx4.jpg",
     book: "Али и Нино",
     author: "Курбан Саид",
-    link: "https://www.podpisnie.ru/books/ali-i-nino-kinooblozhka-myagk-obl/",
+    link: "https://www.podpisnie.ru/books/ali-i-nino-kinooblozhka-myagk-obl-2/",
     text: "Классика азербайджанской литературы! Исторический роман о любви мусульманина и христианки на фоне громких событий начала XX века. Столкновение культур, переплетение Востока и Запада, яркие описания Азербайджана, Грузии, Дагестана и вечные вопросы о любви — как между людьми, так и к родине. Главной загадкой романа остается вопрос об авторстве, ведь доподлинно неизвестно, кто скрывается под именем Курбана Саида. Однако же установлено, что у главных героев романа были реальные прототипы.",
     color: "#8A3624",
   },
 
   {
     id: 24,
-    image:"https://www.podpisnie.ru/upload/iblock/d24/nd0lcg7wumknd8235cztliewxuq48p26.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/281/1262_575_1/8l2zxqgxul2mjmcmnagyf81n3wfz9ckv.jpg",
     book: "Повесть о Сонечке",
     author: "Марина Цветаева",
     link: "https://www.podpisnie.ru/books/povest-o-sonechke-nov-obl/",
@@ -240,7 +239,7 @@ const initialCards = [
 
   {
     id: 25,
-    image:"https://www.podpisnie.ru/upload/iblock/f56/oxt15vbzzjuu1xs1dv48gz1ia66f2eg8.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/f8c/1262_575_1/c2ahdari1z2uap3f7cferlklhl3am84k.jpg",
     book: "Возможности любовного романа",
     author: "Немец Ян",
     link: "https://www.podpisnie.ru/books/vozmozhnosti-lyubovnogo-romana/",
@@ -250,7 +249,7 @@ const initialCards = [
 
   {
     id: 26,
-    image:"https://www.podpisnie.ru/upload/iblock/ee5/0fa3w9j2vc7nwb3sp8pualpre9dhmi5a.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/e04/1262_575_1/3t0ncay3brrcy3wzn9x24adr82snskct.jpg",
     book: "Мемуары гейши",
     author: "Артур Голден",
     link: "https://www.podpisnie.ru/books/memuary-geyshi-2/",
@@ -260,7 +259,7 @@ const initialCards = [
 
   {
     id: 27,
-    image:"https://www.podpisnie.ru/upload/iblock/686/a0ilsw7mcg5v2z0p4826bx3tgw5884zy.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/686/1262_575_1/a0ilsw7mcg5v2z0p4826bx3tgw5884zy.jpg",
     book: "Время сердца",
     author: "Пауль Целан, Ингебор Бахман",
     link: "https://www.podpisnie.ru/books/vremya-serdtsa-perepiska-ingeborg-bahman-i-paulya-tselana/",
@@ -270,7 +269,7 @@ const initialCards = [
 
   {
     id: 28,
-    image:"https://www.podpisnie.ru/upload/iblock/652/faeyna1z44ck14i9ew2r6uj49kn66rhl.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/ec9/1262_575_1/uncbcte5r56nu0ue5ck5ejl62aivtxve.jpg",
     book: "Страдания юного Вертера",
     author: "Иоганн Вольфганг Гете",
     link: "https://www.podpisnie.ru/books/stradaniya-yunogo-vertera-per-eyvadisa/",
@@ -280,7 +279,7 @@ const initialCards = [
 
   {
     id: 29,
-    image:"https://www.podpisnie.ru/upload/iblock/04f/zfgz5iy0ybvsh0suk33lfm57kkv9b1xj.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/ddf/1262_575_1/2tp0s9rs846muj3fxzansm4zcnzz7zyk.jpg",
     book: "Любовник леди Чаттерли",
     author: "Дэвид Герберт Лоуренс",
     link: "https://www.podpisnie.ru/books/lyubovnik-ledi-chatterli/",
@@ -290,7 +289,7 @@ const initialCards = [
 
   {
     id: 30,
-    image:"https://www.podpisnie.ru/upload/iblock/2ec/hvw8fiioltnezqdirkqelbv8rd8zn12y.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/778/1262_575_1/0zknithv11uzqz41dxvcmo4xqs78ggiy.jpg",
     book: "Светила",
     author: "Элеонор Каттон",
     link: "https://www.podpisnie.ru/books/svetila/",
@@ -300,7 +299,7 @@ const initialCards = [
 
   {
     id: 31,
-    image:"https://www.podpisnie.ru/upload/iblock/ff9/g06we8p3zxhzmlshrnlxlx53ehqfvhvl.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/b8d/1262_575_1/lnmciw34r1xg9jqrbij2eu3kg2tg1epz.jpg",
     book: "Порочная страсть",
     author: "Колин Маккалоу",
     link: "https://www.podpisnie.ru/books/porochnaya-strast/",
@@ -320,7 +319,7 @@ const initialCards = [
 
   {
     id: 33,
-    image:"https://www.podpisnie.ru/upload/iblock/ed9/pyeo6zbv42fr6tqrormyuh11be981x3a.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/695/1262_575_1/vng8q3ya4uxmvq6o83dx746c53avia6a.jpg",
     book: "Грозовой перевал",
     author: "Эмили Бронте",
     link: "https://www.podpisnie.ru/books/grozovoy-pereval-16/",
@@ -330,7 +329,7 @@ const initialCards = [
 
   {
     id: 34,
-    image:"https://www.podpisnie.ru/upload/iblock/ab3/7j8cso1s2ka0iiyj9u1w2gndw44mjv23.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/cb5/1262_575_1/bu415qgpt0pv6qnexfgwxqv6ylias7cz.jpg",
     book: "Доктор Живаго",
     author: "Борис Пастернак",
     link: "https://www.podpisnie.ru/books/doktor-zhivago-18/",
@@ -340,7 +339,7 @@ const initialCards = [
 
   {
     id: 35,
-    image:"https://www.podpisnie.ru/upload/iblock/3ae/o7otkh84uc3g57l6txp4y0qu9anqlnks.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/5d6/1262_575_1/v28vsi59sxcn7mgnml2ajyhmwjn021ee.jpg",
     book: "Венок ангелов",
     author: "Гертруд фон Лефорт",
     link: "https://www.podpisnie.ru/books/venok-angelov/",
@@ -350,7 +349,7 @@ const initialCards = [
 
   {
     id: 36,
-    image:"https://www.podpisnie.ru/upload/iblock/4ea/8gwggpqcn8hzeswd91dbj5s4m3nz1c91.jpg",
+    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/113/1262_575_1/3l7snn60rppsxntvixubtq7h4t8e0pq4.jpg",
     book: "История одного супружества",
     author: "Эндрю Шон",
     link: "https://www.podpisnie.ru/books/istoriya-odnogo-supruzhestva/",
