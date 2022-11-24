@@ -9,19 +9,30 @@
   justify-content: space-between;
 }
 
+.main__text {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
 .main__text p {
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
-  padding-bottom: 20px;
+  line-height: 1.5;
 }
 
-.main__text-header {
+.main__text hr {
+  width: 20%
+}
+
+.main__text h1 {
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
   font-weight: bold;
+  padding-bottom: 20px;
 }
 
-.main__text-header:hover {
+.main__text h1:hover {
   cursor: pointer;
   opacity: 0.5;
 

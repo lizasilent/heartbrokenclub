@@ -3,13 +3,17 @@ import React from "react";
 
 function Main({ popupActive, cards, handleText, active }) {
 
+
+
+
   return (
     <main className="main">
       <div className="main__text">
-        <p className="main__text-header" onClick={handleText}>О проекте</p>
+        <h1 onClick={handleText}>О проекте</h1>
         {
           active && (
             <>
+            <hr/>
             <p className="main__text">
           Работая в торговом зале “Подписных” , мы часто сталкивались с запросом
           “посоветуйте книгу, чтоб было про любовь и с хорошим концом”. Мы
@@ -31,6 +35,7 @@ function Main({ popupActive, cards, handleText, active }) {
           <span className="popup__logo"></span> Наташа Родионова{" "}
           <span className="popup__logo"></span> Саша Соколов
         </p>
+        <hr/>
         </>
           )
         }
