@@ -3,17 +3,28 @@
   padding: 0 10% 3%;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   min-height: 120px;
   align-items: center;
   justify-content: space-between;
 }
 
-.main__text{
+.main__text p {
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
- text-align: left;
- padding-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.main__text-header {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.main__text-header:hover {
+  cursor: pointer;
+  opacity: 0.5;
+
 }
 
 .wrapper {

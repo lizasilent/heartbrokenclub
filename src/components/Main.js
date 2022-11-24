@@ -1,11 +1,16 @@
 import "./Main.css";
 import React from "react";
 
-function Main({ popupActive, cards }) {
+function Main({ popupActive, cards, handleText, active }) {
+
   return (
     <main className="main">
       <div className="main__text">
-        <p>
+        <p className="main__text-header" onClick={handleText}>О проекте</p>
+        {
+          active && (
+            <>
+            <p className="main__text">
           Работая в торговом зале “Подписных” , мы часто сталкивались с запросом
           “посоветуйте книгу, чтоб было про любовь и с хорошим концом”. Мы
           решили собрать ридинг-группу и исследовать эту туманную область
@@ -17,7 +22,7 @@ function Main({ popupActive, cards }) {
           бархатных кресел в театре, а свежий модернисткий текст о любви в
           Нью-Йорке ассоциируется с ярким, почти арбузным розовым).
         </p>
-        <p>
+        <p className="main__text">
           Основной состав ридинг-группы: 
           <span className="popup__logo"></span>Катя Кожушная{" "}
           <span className="popup__logo"></span> Аня Каннуникова{" "}
@@ -26,6 +31,10 @@ function Main({ popupActive, cards }) {
           <span className="popup__logo"></span> Наташа Родионова{" "}
           <span className="popup__logo"></span> Саша Соколов
         </p>
+        </>
+          )
+        }
+        
       </div>
 
       <ul className="wrapper">
