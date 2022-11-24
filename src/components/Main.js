@@ -9,11 +9,12 @@ function Main({ popupActive, cards, handleText, active }) {
   return (
     <main className="main">
       <div className="main__text">
+      <hr/>
         <h1 onClick={handleText}>О проекте</h1>
         {
           active && (
             <>
-            <hr/>
+            
             <p className="main__text">
           Работая в торговом зале “Подписных” , мы часто сталкивались с запросом
           “посоветуйте книгу, чтоб было про любовь и с хорошим концом”. Мы
