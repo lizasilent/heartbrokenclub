@@ -3,13 +3,20 @@ import React from "react";
 
 function Main({ popupActive, cards, handleText, active }) {
 
+const red = {
+  color: "red"
+}
 
+const grey = {
+  color: "grey"
+}
 
 
   return (
     <main className="main">
       <div className="main__text">
-        <h1 onClick={handleText}>Что это такое?</h1>
+        
+        <h1 onClick={handleText} style={active ? red : grey}>Что это такое?</h1>
         {
           active && (
             <>
