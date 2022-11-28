@@ -29,7 +29,6 @@
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
   font-weight: bold;
-  padding-bottom: 20px;
 }
 
 .main__text h1:hover {
@@ -65,6 +64,10 @@
   .main {
     padding: 0 5% 3%;
   }
+
+  .main__text p {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 646px) {
@@ -75,6 +78,10 @@
   .wrapper {
     grid-template-rows: repeat(9, 70px);
     grid-template-columns: repeat(4, 70px);
+  }
+
+  .main__text p {
+    font-size: 12px;
   }
 }
 

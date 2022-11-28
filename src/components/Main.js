@@ -9,8 +9,7 @@ function Main({ popupActive, cards, handleText, active }) {
   return (
     <main className="main">
       <div className="main__text">
-      <hr/>
-        <h1 onClick={handleText}>О проекте</h1>
+        <h1 onClick={handleText}>Что это такое?</h1>
         {
           active && (
             <>

@@ -8,7 +8,7 @@ import initialCards from "../initials/initial";
 function App() {
   //Открыть попапы
   const [popupActive, setPopupActive] = React.useState(false);
-  const [textActive, setTextActive] = React.useState(false);
+  const [textActive, setTextActive] = React.useState();
   const [selectedCard, setSelectedCard] = React.useState(false);
 
   function handleCardClick(card) {
@@ -17,7 +17,7 @@ function App() {
   }
 
   function handleText() {
-    setTextActive(true);
+    setTextActive(!textActive);
   }
 
   function closePopup() {
