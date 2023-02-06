@@ -1,7 +1,8 @@
 const initialCards = [
   {
     id: 1,
-    image: "https://www.podpisnie.ru/upload/resize_cache/iblock/ed1/1262_575_1/ruaauopr2h8d3bo34tjdr303s17bllal.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/ed1/1262_575_1/ruaauopr2h8d3bo34tjdr303s17bllal.jpg",
     book: "Девушка на качелях",
     author: "Ричард Адамс",
     link: "https://www.podpisnie.ru/books/devushka-na-kachelyakh/",
@@ -10,17 +11,19 @@ const initialCards = [
   },
   {
     id: 2,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/41b/1262_575_1/42orml3x9r5iicmxe6wvi3hvdzvxoy64.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/844/1262_575_1/l00rxwm8dbvsk2kceid1mq6kptm5e7se.jpg",
     book: "Волхв",
     author: "Джон Фаулз",
-    link: "https://www.podpisnie.ru/books/volkhv-s-ill/",
+    link: "https://www.podpisnie.ru/books/volkhv-13/",
     text: "В ходе бурных дискуссий выявлено: «Волхв» —  одна из тех самых книг, которую либо искренне любят, либо ненавидят, но в любом случае все признают: это роман о всепоглощающей любви и страсти. Шарада, головоломка, лабиринт, театр марионеток — так выстраивается текст, заставляя читателя не выпускать книгу из рук, пока она не будет прочитана от корки до корки. Скучающий главный герой, стремящийся ухватить в своей жизни хоть одно стоящее приключение, отправляется преподавать на небольшой греческий островок. Поверьте, приключений он найдет с лихвой, да таких, что нетрудно и слегка тронуться умом, ведь различить, что правда, что ложь, что было на самом деле, а что является умелой театральной постановкой — практически невозможно до самого конца.",
     color: "#FF1B1B",
   },
 
   {
     id: 3,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/f7b/1262_575_1/2miupdl92d8fbzt15zmw5limyl4ovga0.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/f7b/1262_575_1/2miupdl92d8fbzt15zmw5limyl4ovga0.jpg",
     book: "Последняя любовь в Константинополе",
     author: "Милорад Павич",
     link: "https://www.podpisnie.ru/books/poslednyaya-lyubov-v-konstantinopole/",
@@ -30,7 +33,8 @@ const initialCards = [
 
   {
     id: 4,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/b57/1262_575_1/4jupwqhbbqjg7d6zj86dch8jovr9u7e5.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/b57/1262_575_1/4jupwqhbbqjg7d6zj86dch8jovr9u7e5.jpg",
     book: "Дьявол во плоти",
     author: "Реймон Родиге",
     link: "https://www.podpisnie.ru/books/dyavol-vo-ploti/",
@@ -40,17 +44,19 @@ const initialCards = [
 
   {
     id: 5,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/33e/1262_575_1/vpkabzred1ryvcuz8hy9znxutxuugf2t.jpg",
-    book: "Zoo, или письма о нелюбви",
-    author: "Виктор Шкловский",
-    link: "https://www.podpisnie.ru/books/sobranie-sochineniy-tom-2-biografiya/",
-    text: "Короткая, хлесткая, хрупкая проза безответно влюбленного писателя, поклявшегося ничего не писать о любви своей любви — девушке, живущей в другой стране совсем другой жизнью. В арьергарде — эмиграция и революция, на переднем плане — лихорадочное, безответное чувство, тоска и надежда. Что еще ценно, эта книга хранит возможность знакомства с талантливым и пронзительным пером самой зазнобы Шкловского — Эльзы Триоле.",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/bb6/1262_575_1/4s2m4ff3q5wkob3os5t2llk1pvqobf1e.jpg",
+    book: "Лошадки Тарквинии",
+    author: "Маргерит Дюрас",
+    link: "https://www.podpisnie.ru/books/loshadki-tarkvinii/",
+    text: "Кинематографичное и очень красивое повествование о любви, верности, о трудностях жизни в браке и их преодолении. Супружеская пара, Сара и Жак с сыном и друзьями отдыхают на побережье в Италии и все идет наперекосяк -  невыносимая жара, скука, из развлечений у них - алкоголь, да бесконечные разговоры о любви, одиночестве, быте, скуке (по наполненности и краткости этих диалогов Дюрас даже сравнивают с Чеховым). В какой-то момент к компании присоединяется незнакомый мужчина по имени Жан, с которым у Сары завязываются романтические отношения. Однако Дюрас не стремится рассказать читателю в точности о событиях, ее внимание сосредоточено скорее на состояниях персонажей.",
     color: "#AF0A0A",
   },
 
   {
     id: 6,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/99f/1262_575_1/nhhajpupnkvwgbty6nfstfj2avo2l9ed.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/99f/1262_575_1/nhhajpupnkvwgbty6nfstfj2avo2l9ed.jpg",
     book: "Современная любовь",
     author: "Констанс де Жонг",
     link: "https://www.podpisnie.ru/books/sovremennaya-lyubov/",
@@ -60,17 +66,19 @@ const initialCards = [
 
   {
     id: 7,
-    image:"https://www.podpisnie.ru/upload/iblock/450/s419kaxn17vzyhtmfpsylkkije9qjgqs.jpg",
-    book: "Тит Беренику не любил",
-    author: "Натали Азуле",
-    link: "https://www.podpisnie.ru/books/tit-bereniku-ne-lyubil/",
-    text: "В этой книге Натали Азуле размышляет над тем, зачем вообще мы читаем книги, почему классика не устаревает и как получается такая магия, когда люди оказываются связаны близостью переживаний через столетия? В этой небольшой по объему книге рассказана история юной француженки по имени Береника, которую бросает возлюбленный. Чтобы пережить этот разрыв, она погружается с головой в чтение трагедий Жана Расина, цитирует его в SMS, пытается понять, как мужчина из XVII столетия сумел так точно описать женские чувства. Чтобы найти разгадку, Береника исследует биографию французского классика, тем самым оживляя его детство, проведенное в монастыре, юношеские любовные переживания и трагедии, службу у короля и, конечно, отношения со словом, постоянный поиск совершенного выражения чувств. У Натали Азуле получился на диво прекрасный роман, соединяющий современность и классическую литературу, которая порой кажется нам такой далекой и скучной, но на самом деле оказывается очень живой, а ее герои — похожими на нас.",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/a98/1262_575_1/r46yste9rls36g7j4mkipsmtphwtmlwu.jpg",
+    book: "Мадонна в меховом манто",
+    author: "Сабахттин Али",
+    link: "https://www.podpisnie.ru/books/madonna-v-mekhovom-manto/",
+    text: "Пронзительная история любви Раифа-эфенди и немецкой художницы Марии. Действие романа разворачивается в 1920-е годы прошлого века в Берлине и Анкаре, а его атмосфера близка к предвоенным романам Ремарка. Значительная часть романа - история жизни Раифа-эфенди в Турции и Германии, перипетии его любви к Марии Пудер, духовных поисков и терзаний. Это трагическая история об одиночестве, неспособности понять другого и о силе любви.",
     color: "#A22C35",
   },
 
   {
     id: 8,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/db3/1262_575_1/201bbzb652f7jgwtfxpojy5n10sha123.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/db3/1262_575_1/201bbzb652f7jgwtfxpojy5n10sha123.jpg",
     book: "Ольга",
     author: "Бернхард Шлинк",
     link: "https://www.podpisnie.ru/books/ol-ga-myagk-obl/",
@@ -80,7 +88,8 @@ const initialCards = [
 
   {
     id: 9,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/f02/1262_575_1/bclz404511dkqmql6gqoxn7ie2anwe6i.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/f02/1262_575_1/bclz404511dkqmql6gqoxn7ie2anwe6i.jpg",
     book: "Обладать",
     author: "Антония Байет",
     link: "https://www.podpisnie.ru/books/obladat/",
@@ -90,7 +99,8 @@ const initialCards = [
 
   {
     id: 10,
-    image:"https://www.podpisnie.ru/upload/iblock/3f6/vm3k3d83389t5vc4ekp7thitcw2uk3uw.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/iblock/3f6/vm3k3d83389t5vc4ekp7thitcw2uk3uw.jpg",
     book: "Души",
     author: "Рои Хен",
     link: "https://www.podpisnie.ru/books/fantom-dushi/",
@@ -100,7 +110,8 @@ const initialCards = [
 
   {
     id: 11,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/fbe/1262_575_1/vmg44oiluknvby2o9l2pa5lh7hq061qs.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/fbe/1262_575_1/vmg44oiluknvby2o9l2pa5lh7hq061qs.jpg",
     book: "Музей современной любви",
     author: "Хизер Роуз",
     link: "https://www.podpisnie.ru/books/muzey-sovremennoy-lyubvi/",
@@ -110,7 +121,8 @@ const initialCards = [
 
   {
     id: 12,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/842/1262_575_1/6638fi89d1cw1e5bsbi0sezk4ylp5d7v.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/842/1262_575_1/6638fi89d1cw1e5bsbi0sezk4ylp5d7v.jpg",
     book: "Женщина на кресте",
     author: "Анна Мар",
     link: "https://www.podpisnie.ru/books/zhenshchina-na-kreste/",
@@ -120,7 +132,8 @@ const initialCards = [
 
   {
     id: 13,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/a76/1262_575_1/mldr27bt6uih0ybjt68uz52w9ape64ao.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/a76/1262_575_1/mldr27bt6uih0ybjt68uz52w9ape64ao.jpg",
     book: "Грех",
     author: "Паскуале Феста-Кампаниле",
     link: "https://www.podpisnie.ru/books/grekh-7/",
@@ -130,17 +143,19 @@ const initialCards = [
 
   {
     id: 14,
-    image:"https://www.podpisnie.ru/upload/iblock/f22/wajs5i6stur8xo2beiztkle9tv2iowq6.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/b7f/1262_575_1/6iuzts7k0ul07o8x3b26u0ej40yi3637.jpg",
     book: "Роман с кокаином",
     author: "Михаил Агеев",
-    link: "https://www.podpisnie.ru/books/roman-s-kokainom-3/",
+    link: "https://www.podpisnie.ru/books/roman-s-kokainom-per/",
     text: "“Красиво говорить о любви может тот, в ком эта любовь ушла в воспоминания; убедительно говорить о любви может тот, в ком она всколыхнула чувственность; и вовсе молчать о любви должен тот, кому она поразила сердце” — так рассуждает герой исповедального романа М. Агеева (псевдоним Марка Леви), романа о взрослении, развитии личности и препятствиях на этом пути. Безрадостное повествование о нравственном падении юного декадента, о противоречивости его чувств и бесконечной пустоте внутри, которую он беспомощно пытается заполнить. ",
     color: "#4A0404",
   },
 
   {
     id: 15,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/fe6/1262_575_1/q292c47pk5a4qxtmcb9mrv3kr6kthgbp.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/fe6/1262_575_1/q292c47pk5a4qxtmcb9mrv3kr6kthgbp.jpg",
     book: "Пена дней",
     author: "Борис Виан",
     link: "https://www.podpisnie.ru/books/pena-dney-i-drugie-istorii/",
@@ -149,27 +164,30 @@ const initialCards = [
   },
   {
     id: 16,
-    image:"https://www.podpisnie.ru/upload/iblock/c1b/ige3nm6rg4i1szm2i0cu7df4nu2eddl8.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/4b4/1262_575_1/64fcutwfave4ylk2iz6d374il2uxufwz.jpg",
     book: "Звездная пыль",
     author: "Нил Гейман",
-    link: "https://www.podpisnie.ru/books/zvezdnaya-pyl-7/",
+    link: "https://www.podpisnie.ru/books/zvezdnaya-pyl/",
     text: "Имя Нила Геймана, пожалуй, не нуждается в особом представлении.  Это замечательнейший сценарист и писатель, знакомый едва ли не каждому. “Звёздная пыль” — это прекрасный вариант, если захотелось почитать нечто романтическое, не переполненное грузными мыслями и идеями, но при этом динамичное и смешное. Это история про мальчика, ушедшего в неведомые места на поиски упавшей звезды, которая напоминает славный юмор Терри Пратчетта. Словом, идеально для весёлого и спокойного вечера!",
     color: "#EF4824",
   },
 
   {
     id: 17,
-    image:"https://www.podpisnie.ru/upload/iblock/162/xddqyu9ouo0yr3xn9qe53tz0dm7n85f5.jpg",
-    book: "Финист-Ясный сокол",
-    author: "Андрей Рубанов",
-    link: "https://www.podpisnie.ru/books/finist-yasnyy-sokol-roman/",
-    text: "Любовь красной нитью проходит через роман Андрея Рубанова, который взял за основу русскую народную сказку и преобразил ее в невероятный круговорот событий и жанров: здесь и фантастика, и путешествия, и любовная и психологическая драма — всё с фольклорными нотками. Эта книга — современный сказ о правде, бескорыстии, дружбе, родине и, самое главное, о всепобеждающей любви.",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/fbc/1262_575_1/y1l0zyzo4j9cne0r6e07sadsp7y4mvis.jpg",
+    book: "Переходы",
+    author: "Алекс Ландрагин",
+    link: "https://www.podpisnie.ru/books/perekhody-2/",
+    text: "Растянувшаяся на два столетия повесть о любви и ненависти, памяти и забвении приведет читателя в Брюссель, Париж и Новый Орлеан, в Океанию и на Маврикий, а завершится глухой предвоенной ночью в приграничной испанской деревушке. Но истории этой не будет конца, и точка - не финал, а лишь передышка, после которой все начнется заново, но уже в другом порядке. Эта увлекательная мистификация привлечет читателя своими любовными перипетиями, сюжетной игрой и изящным слогом.",
     color: "#702963",
   },
 
   {
     id: 18,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/4bf/1262_575_1/wlecj33r5ndy1scf17zlnn4g02njn82q.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/4bf/1262_575_1/wlecj33r5ndy1scf17zlnn4g02njn82q.jpg",
     book: "Домик в Оллингтоне",
     author: "Энтони Троллоп",
     link: "https://www.podpisnie.ru/books/domik-v-ollingtone/",
@@ -179,7 +197,8 @@ const initialCards = [
 
   {
     id: 19,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/bdb/1262_575_1/b30tmfunqbuau1tuw6gc97t8nw7ge4eb.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/bdb/1262_575_1/b30tmfunqbuau1tuw6gc97t8nw7ge4eb.jpg",
     book: "Исповедь глупца",
     author: "Август Стринберг",
     link: "https://www.podpisnie.ru/books/ispoved-gluptsa/",
@@ -189,7 +208,8 @@ const initialCards = [
 
   {
     id: 20,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/00f/1262_575_1/kbcbjb9vusv9tdx3lskp4kd4o3wzg0u9.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/00f/1262_575_1/kbcbjb9vusv9tdx3lskp4kd4o3wzg0u9.jpg",
     book: "Вечер у Клэр",
     author: "Гайто Газданов",
     link: "https://www.podpisnie.ru/books/vecher-u-kler/",
@@ -199,7 +219,8 @@ const initialCards = [
 
   {
     id: 21,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/ccc/1262_575_1/rc3b68s1x2wgjvhqglikoccc25o61zom.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/ccc/1262_575_1/rc3b68s1x2wgjvhqglikoccc25o61zom.jpg",
     book: "Письмовник",
     author: "Михаил Шишкин",
     link: "https://www.podpisnie.ru/books/pis-movnik-prem-bol-shaya-kniga/",
@@ -209,7 +230,8 @@ const initialCards = [
 
   {
     id: 22,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/05a/1262_575_1/izf1oy9xpnqshlxp333v3a07nb23kep8.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/05a/1262_575_1/izf1oy9xpnqshlxp333v3a07nb23kep8.jpg",
     book: "Мосты округа Мэдисон",
     author: "Роберт Уоллер",
     link: "https://www.podpisnie.ru/books/mosty-okruga-medison-roman-2/",
@@ -219,7 +241,8 @@ const initialCards = [
 
   {
     id: 23,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/0e4/1262_575_1/o66zync0z5jhc7zbjfx8jw5xgnx7ikx4.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/0e4/1262_575_1/o66zync0z5jhc7zbjfx8jw5xgnx7ikx4.jpg",
     book: "Али и Нино",
     author: "Курбан Саид",
     link: "https://www.podpisnie.ru/books/ali-i-nino-kinooblozhka-myagk-obl-2/",
@@ -229,7 +252,8 @@ const initialCards = [
 
   {
     id: 24,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/281/1262_575_1/8l2zxqgxul2mjmcmnagyf81n3wfz9ckv.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/281/1262_575_1/8l2zxqgxul2mjmcmnagyf81n3wfz9ckv.jpg",
     book: "Повесть о Сонечке",
     author: "Марина Цветаева",
     link: "https://www.podpisnie.ru/books/povest-o-sonechke-nov-obl/",
@@ -239,7 +263,8 @@ const initialCards = [
 
   {
     id: 25,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/f8c/1262_575_1/c2ahdari1z2uap3f7cferlklhl3am84k.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/f8c/1262_575_1/c2ahdari1z2uap3f7cferlklhl3am84k.jpg",
     book: "Возможности любовного романа",
     author: "Немец Ян",
     link: "https://www.podpisnie.ru/books/vozmozhnosti-lyubovnogo-romana/",
@@ -249,7 +274,8 @@ const initialCards = [
 
   {
     id: 26,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/e04/1262_575_1/3t0ncay3brrcy3wzn9x24adr82snskct.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/e04/1262_575_1/3t0ncay3brrcy3wzn9x24adr82snskct.jpg",
     book: "Мемуары гейши",
     author: "Артур Голден",
     link: "https://www.podpisnie.ru/books/memuary-geyshi-2/",
@@ -259,17 +285,19 @@ const initialCards = [
 
   {
     id: 27,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/686/1262_575_1/a0ilsw7mcg5v2z0p4826bx3tgw5884zy.jpg",
-    book: "Время сердца",
-    author: "Пауль Целан, Ингебор Бахман",
-    link: "https://www.podpisnie.ru/books/vremya-serdtsa-perepiska-ingeborg-bahman-i-paulya-tselana/",
-    text: "«Я говорю сердцу, чтобы оно пожелало тебе счастья, — оно и так желает, охотно, без подсказки: ему ведь слышно, как ты надеешься и веришь». Разговор письмами длиною в жизнь двух значимых немецкоязычных поэтов второй половины XX века – Пауля Целана и Ингеборг Бахман. О трудности встречи – и невозможности расставания, когда воспроизведенное на бумаге Слово становится единственным проводником и памятью. Между ними всегда есть “нечто” — неразр(у/е)шимое противоречие судеб, но два сердца, тревожно стремящиеся друг к другу, слепо-наощупь продолжают искать воссоединения: в мыслях, стихотворениях, жизни. Переписка становится не только артефактом личного, но и отражает переживание всеобщего человеческого чувства – трагедии после второй мировой войны.",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/de9/1262_575_1/9p09xd15pl79ynwi3s38qqqrffxnaygq.jpg",
+    book: "Вода живая",
+    author: "Клариси Лиспектор",
+    link: "https://www.podpisnie.ru/books/voda-zhivaya-2/",
+    text: "Экспериментальный поэтический монолог, адресованный к возлюбленному писательницы ( и художницы). Весь проникнутый чувственностью, откровенностью и тактильностью, этот текст словно говорит с читателем напрямую, из глубины мыслей писательницы, говорит о любви, творчестве, о попытке добраться до своей сути и почувствовать настоящее мгновение. Неконвенциональность языка, философская глубина, чувственность и стремление к универсальности не позволяют дать прозе Лиспектор однозначные жанровые определения, увлекая читателя колдовским, демиургическим вихрем в мир синестезии, оголенного существования на грани между животным, растительным и человеческим.",
     color: "#F74238",
   },
 
   {
     id: 28,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/ec9/1262_575_1/uncbcte5r56nu0ue5ck5ejl62aivtxve.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/ec9/1262_575_1/uncbcte5r56nu0ue5ck5ejl62aivtxve.jpg",
     book: "Страдания юного Вертера",
     author: "Иоганн Вольфганг Гете",
     link: "https://www.podpisnie.ru/books/stradaniya-yunogo-vertera-per-eyvadisa/",
@@ -279,7 +307,8 @@ const initialCards = [
 
   {
     id: 29,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/ddf/1262_575_1/2tp0s9rs846muj3fxzansm4zcnzz7zyk.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/ddf/1262_575_1/2tp0s9rs846muj3fxzansm4zcnzz7zyk.jpg",
     book: "Любовник леди Чаттерли",
     author: "Дэвид Герберт Лоуренс",
     link: "https://www.podpisnie.ru/books/lyubovnik-ledi-chatterli/",
@@ -289,7 +318,8 @@ const initialCards = [
 
   {
     id: 30,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/778/1262_575_1/0zknithv11uzqz41dxvcmo4xqs78ggiy.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/778/1262_575_1/0zknithv11uzqz41dxvcmo4xqs78ggiy.jpg",
     book: "Светила",
     author: "Элеонор Каттон",
     link: "https://www.podpisnie.ru/books/svetila/",
@@ -299,7 +329,8 @@ const initialCards = [
 
   {
     id: 31,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/b8d/1262_575_1/lnmciw34r1xg9jqrbij2eu3kg2tg1epz.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/b8d/1262_575_1/lnmciw34r1xg9jqrbij2eu3kg2tg1epz.jpg",
     book: "Порочная страсть",
     author: "Колин Маккалоу",
     link: "https://www.podpisnie.ru/books/porochnaya-strast/",
@@ -309,17 +340,19 @@ const initialCards = [
 
   {
     id: 32,
-    image:"https://www.podpisnie.ru/upload/iblock/d5b/5201p918ixtee6fnd9x320b0a7q7zkj8.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/4d7/1262_575_1/htj5gniow97tx7fvp4gbxk75ryzw0vm0.jpg",
     book: "Шагреневая кожа",
     author: "Оноре де Бальзак",
-    link: "https://www.podpisnie.ru/books/shagrenevaya-kozha-8/",
+    link: "https://www.podpisnie.ru/books/shagrenevaya-kozha-7/",
     text: "История искушенного богатством юноши, готового на сделку с дьяволом ради денег и признания. Рафаэль ставит на карту собственную жизнь, дабы наслаждаться праздностью и всемогуществом. Вот только он совсем не учёл того, что однажды влюбится в прекрасную женщину. Правда, будет уже поздно…",
     color: "#C42118",
   },
 
   {
     id: 33,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/695/1262_575_1/vng8q3ya4uxmvq6o83dx746c53avia6a.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/695/1262_575_1/vng8q3ya4uxmvq6o83dx746c53avia6a.jpg",
     book: "Грозовой перевал",
     author: "Эмили Бронте",
     link: "https://www.podpisnie.ru/books/grozovoy-pereval-16/",
@@ -329,17 +362,19 @@ const initialCards = [
 
   {
     id: 34,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/cb5/1262_575_1/bu415qgpt0pv6qnexfgwxqv6ylias7cz.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/e25/1262_575_1/oqfo4i2qiol61pepq1z093xjdc0p8st4.jpg",
     book: "Доктор Живаго",
     author: "Борис Пастернак",
-    link: "https://www.podpisnie.ru/books/doktor-zhivago-18/",
+    link: "https://www.podpisnie.ru/books/doktor-zhivago-20/",
     text: "Каждая грань масштабного романа Бориса Пастернака поблескивает искорками любви – то теплыми и спокойными, то яркими и влекущими; так же многогранна и сама любовь на протяжении всего текста. Повествование начинается снежной метелью за окном, которая будто бы постепенно проникает в дом главного героя и перерастает в вихрь любви – таким противоречивым и стихийным писатель рисует это чувство. Оно словно зеркальце отражает происходящие вокруг главного героя события и его отношение к ним. А в любви, в свою очередь, отражаются и радость, и горе, которые она приносит, словно автор напоминает нам, что счастья без несчастья не существует и именно в любви – всеобъемлющей и бескорыстной – они и соединяются.",
     color: "#C9A9A6",
   },
 
   {
     id: 35,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/5d6/1262_575_1/v28vsi59sxcn7mgnml2ajyhmwjn021ee.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/5d6/1262_575_1/v28vsi59sxcn7mgnml2ajyhmwjn021ee.jpg",
     book: "Венок ангелов",
     author: "Гертруд фон Лефорт",
     link: "https://www.podpisnie.ru/books/venok-angelov/",
@@ -349,7 +384,8 @@ const initialCards = [
 
   {
     id: 36,
-    image:"https://www.podpisnie.ru/upload/resize_cache/iblock/113/1262_575_1/3l7snn60rppsxntvixubtq7h4t8e0pq4.jpg",
+    image:
+      "https://www.podpisnie.ru/upload/resize_cache/iblock/113/1262_575_1/3l7snn60rppsxntvixubtq7h4t8e0pq4.jpg",
     book: "История одного супружества",
     author: "Эндрю Шон",
     link: "https://www.podpisnie.ru/books/istoriya-odnogo-supruzhestva/",
