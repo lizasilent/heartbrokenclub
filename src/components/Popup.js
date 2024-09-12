@@ -29,8 +29,8 @@ function Popup({ card, closePopup }) {
             <div className="popup__img_container">
               <div
                 className="popup__img"
-                style={{ backgroundImage: `url(${card.image})` }}
-              ></div>
+                
+              ><img src={card.image} alt={card.book}></img></div>
               <a className="popup__link" href={card.link} target="blank">
                 <p>Купить книгу</p>
               </a>
