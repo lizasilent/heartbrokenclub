@@ -8,10 +8,32 @@ import slivovyy from "../images/cover-images/slivovyy-kalendar-lyubvi.jpg";
 import obladat from "../images/cover-images/obladat.jpg";
 import loshadkitarkvinii from "../images/cover-images/loshadki-tarkvinii.jpg";
 import saharov from "../images/cover-images/saharov-kefir.jpg";
-import loshadkitarkvinii from "../images/cover-images/loshadki-tarkvinii.jpg";
-import loshadkitarkvinii from "../images/cover-images/loshadki-tarkvinii.jpg";
-import loshadkitarkvinii from "../images/cover-images/loshadki-tarkvinii.jpg";
-import loshadkitarkvinii from "../images/cover-images/loshadki-tarkvinii.jpg";
+import muzey from "../images/cover-images/muzey-sovremennoy-lyubvi.jpg";
+import zhenshchina from "../images/cover-images/zhenshchina-na-kreste.jpg";
+import grekh from "../images/cover-images/grekh.jpg";
+import roman from "../images/cover-images/roman-s-kokainom.jpg";
+import pena from "../images/cover-images/pena-dney.jpg";
+import zvezdnaya from "../images/cover-images/zvezdnaya-pyl.jpg";
+import yaeelyubil from "../images/cover-images/ya-ee-lyubil-ya-ego-lyubila-3.jpg";
+import domik from "../images/cover-images/domik.jpg";
+import lyubovv from "../images/cover-images/lyubov-v-epokhu-nenavisti.jpg";
+import vecher from "../images/cover-images/vecher-u-kler.jpg";
+import zoo from "../images/cover-images/zoo-pis-ma-ne-o-lyubvi-ili-tret-ya-eloiza.jpg";
+import mosty from "../images/cover-images/mosty.jpg";
+import ali from "../images/cover-images/ali-i-nino.jpg";
+import povest from "../images/cover-images/povest-o-sonechke.jpg";
+import muzeynevinnosti from "../images/cover-images/muzey-nevinnosti.jpg";
+import memuary from "../images/cover-images/memuary.jpg";
+import voda from "../images/cover-images/voda-zhivaya.jpg";
+import stradaniya from "../images/cover-images/stradaniya.jpg";
+import lyubovnik from "../images/cover-images/lyubovnik-ledi.jpg";
+import svetila from "../images/cover-images/svetila.jpg";
+import porochnaya from "../images/cover-images/porochnaya-strast.jpg";
+import shagrenevaya from "../images/cover-images/shagrenevaya-kozha.jpg";
+import grozovoy from "../images/cover-images/grozovoy-pereval.jpg";
+import doktor from "../images/cover-images/doktor-zhivago.jpg";
+import venok from "../images/cover-images/venok-angelov.jpg";
+import vozdushnye from "../images/cover-images/vozdushnye-zmei.jpg";
 
 const initialCards = [
   {
@@ -55,7 +77,7 @@ const initialCards = [
     image: loshadkitarkvinii,
     book: "Лошадки Тарквинии",
     author: "Маргерит Дюрас",
-    link: "https://www.podpisnie.ru/books/loshadki-tarkvinii/",
+    link: "https://www.podpisnie.ru/books",
     text: "Кинематографичное и очень красивое повествование о любви, верности, о трудностях жизни в браке и их преодолении. Супружеская пара, Сара и Жак с сыном и друзьями отдыхают на побережье в Италии и все идет наперекосяк -  невыносимая жара, скука, из развлечений у них - алкоголь, да бесконечные разговоры о любви, одиночестве, быте, скуке (по наполненности и краткости этих диалогов Дюрас даже сравнивают с Чеховым). В какой-то момент к компании присоединяется незнакомый мужчина по имени Жан, с которым у Сары завязываются романтические отношения. Однако Дюрас не стремится рассказать читателю в точности о событиях, ее внимание сосредоточено скорее на состояниях персонажей.",
     color: "#AF0A0A",
   },
@@ -107,8 +129,7 @@ const initialCards = [
 
   {
     id: 11,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/fbe/1262_575_1/vmg44oiluknvby2o9l2pa5lh7hq061qs.jpg",
+    image: muzey,
     book: "Музей современной любви",
     author: "Хизер Роуз",
     link: "https://www.podpisnie.ru/books/muzey-sovremennoy-lyubvi/",
@@ -118,8 +139,7 @@ const initialCards = [
 
   {
     id: 12,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/842/1262_575_1/6638fi89d1cw1e5bsbi0sezk4ylp5d7v.jpg",
+    image: zhenshchina,
     book: "Женщина на кресте",
     author: "Анна Мар",
     link: "https://www.podpisnie.ru/books/zhenshchina-na-kreste/",
@@ -129,8 +149,7 @@ const initialCards = [
 
   {
     id: 13,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/a76/1262_575_1/mldr27bt6uih0ybjt68uz52w9ape64ao.jpg",
+    image: grekh,
     book: "Грех",
     author: "Паскуале Феста-Кампаниле",
     link: "https://www.podpisnie.ru/books/grekh-7/",
@@ -140,8 +159,7 @@ const initialCards = [
 
   {
     id: 14,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/b7f/1262_575_1/6iuzts7k0ul07o8x3b26u0ej40yi3637.jpg",
+    image: roman,
     book: "Роман с кокаином",
     author: "Михаил Агеев",
     link: "https://www.podpisnie.ru/books/roman-s-kokainom-per-2/",
@@ -151,8 +169,7 @@ const initialCards = [
 
   {
     id: 15,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/fe6/1262_575_1/q292c47pk5a4qxtmcb9mrv3kr6kthgbp.jpg",
+    image: pena,
     book: "Пена дней",
     author: "Борис Виан",
     link: "https://www.podpisnie.ru/books/pena-dney-i-drugie-istorii/",
@@ -161,8 +178,7 @@ const initialCards = [
   },
   {
     id: 16,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/4b4/1262_575_1/64fcutwfave4ylk2iz6d374il2uxufwz.jpg",
+    image: zvezdnaya,
     book: "Звездная пыль",
     author: "Нил Гейман",
     link: "https://www.podpisnie.ru/books/zvezdnaya-pyl/",
@@ -172,8 +188,7 @@ const initialCards = [
 
   {
     id: 17,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/fbc/1262_575_1/y1l0zyzo4j9cne0r6e07sadsp7y4mvis.jpg",
+    image: yaeelyubil,
     book: "Я ее любил. Я его любила",
     author: "Гавальда А.",
     link: "https://www.podpisnie.ru/books/ya-ee-lyubil-ya-ego-lyubila-3/",
@@ -183,8 +198,7 @@ const initialCards = [
 
   {
     id: 18,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/4bf/1262_575_1/wlecj33r5ndy1scf17zlnn4g02njn82q.jpg",
+    image: domik,
     book: "Домик в Оллингтоне",
     author: "Энтони Троллоп",
     link: "https://www.podpisnie.ru/books/domik-v-ollingtone/",
@@ -194,8 +208,7 @@ const initialCards = [
 
   {
     id: 19,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/bdb/1262_575_1/b30tmfunqbuau1tuw6gc97t8nw7ge4eb.jpg",
+    image: lyubovv,
     book: "Любовь в эпоху ненависти. Хроника одного чувства, 1929-1939",
     author: "Иллиес Ф.",
     link: "https://www.podpisnie.ru/books/lyubov-v-epokhu-nenavisti-khronika-odnogo-chuvstva-1929-1939/",
@@ -205,8 +218,7 @@ const initialCards = [
 
   {
     id: 20,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/00f/1262_575_1/kbcbjb9vusv9tdx3lskp4kd4o3wzg0u9.jpg",
+    image: vecher,
     book: "Вечер у Клэр",
     author: "Гайто Газданов",
     link: "https://www.podpisnie.ru/books/vecher-u-kler/",
@@ -216,8 +228,7 @@ const initialCards = [
 
   {
     id: 21,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/ccc/1262_575_1/rc3b68s1x2wgjvhqglikoccc25o61zom.jpg",
+    image: zoo,
     book: "Zoo. Письма не о любви, или третья Элоиза",
     author: "Шкловский В.",
     link: "https://www.podpisnie.ru/books/zoo-pis-ma-ne-o-lyubvi-ili-tret-ya-eloiza/",
@@ -227,8 +238,7 @@ const initialCards = [
 
   {
     id: 22,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/05a/1262_575_1/izf1oy9xpnqshlxp333v3a07nb23kep8.jpg",
+    image: mosty,
     book: "Мосты округа Мэдисон",
     author: "Роберт Уоллер",
     link: "https://www.podpisnie.ru/books/mosty-okruga-medison-5/",
@@ -238,8 +248,7 @@ const initialCards = [
 
   {
     id: 23,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/0e4/1262_575_1/o66zync0z5jhc7zbjfx8jw5xgnx7ikx4.jpg",
+    image: ali,
     book: "Али и Нино",
     author: "Курбан Саид",
     link: "https://www.podpisnie.ru/books/ali-i-nino-kinooblozhka-myagk-obl-2/",
@@ -249,8 +258,7 @@ const initialCards = [
 
   {
     id: 24,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/281/1262_575_1/8l2zxqgxul2mjmcmnagyf81n3wfz9ckv.jpg",
+    image: povest,
     book: "Повесть о Сонечке",
     author: "Марина Цветаева",
     link: "https://www.podpisnie.ru/books/povest-o-sonechke-4/",
@@ -260,8 +268,7 @@ const initialCards = [
 
   {
     id: 25,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/f8c/1262_575_1/c2ahdari1z2uap3f7cferlklhl3am84k.jpg",
+    image: muzeynevinnosti,
     book: "Музей Невинности",
     author: "Памук О.",
     link: "https://www.podpisnie.ru/books/muzey-nevinnosti-myagk-obl/",
@@ -271,8 +278,7 @@ const initialCards = [
 
   {
     id: 26,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/e04/1262_575_1/3t0ncay3brrcy3wzn9x24adr82snskct.jpg",
+    image: memuary,
     book: "Мемуары гейши",
     author: "Артур Голден",
     link: "https://www.podpisnie.ru/books/memuary-geyshi-2/",
@@ -282,8 +288,7 @@ const initialCards = [
 
   {
     id: 27,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/de9/1262_575_1/9p09xd15pl79ynwi3s38qqqrffxnaygq.jpg",
+    image: voda,
     book: "Вода живая",
     author: "Клариси Лиспектор",
     link: "https://www.podpisnie.ru/books/voda-zhivaya-2/",
@@ -293,8 +298,7 @@ const initialCards = [
 
   {
     id: 28,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/ec9/1262_575_1/uncbcte5r56nu0ue5ck5ejl62aivtxve.jpg",
+    image: stradaniya,
     book: "Страдания юного Вертера",
     author: "Иоганн Вольфганг Гете",
     link: "https://www.podpisnie.ru/books/stradaniya-yunogo-vertera-s-illyustratsiyami/",
@@ -304,8 +308,7 @@ const initialCards = [
 
   {
     id: 29,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/ddf/1262_575_1/2tp0s9rs846muj3fxzansm4zcnzz7zyk.jpg",
+    image: lyubovnik,
     book: "Любовник леди Чаттерли",
     author: "Дэвид Герберт Лоуренс",
     link: "https://www.podpisnie.ru/books/lyubovnik-ledi-chatterli/",
@@ -315,8 +318,7 @@ const initialCards = [
 
   {
     id: 30,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/778/1262_575_1/0zknithv11uzqz41dxvcmo4xqs78ggiy.jpg",
+    image: svetila,
     book: "Светила",
     author: "Элеонор Каттон",
     link: "https://www.podpisnie.ru/books/svetila-kinooblozhka/",
@@ -326,8 +328,7 @@ const initialCards = [
 
   {
     id: 31,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/b8d/1262_575_1/lnmciw34r1xg9jqrbij2eu3kg2tg1epz.jpg",
+    image: porochnaya,
     book: "Порочная страсть",
     author: "Колин Маккалоу",
     link: "https://www.podpisnie.ru/books/porochnaya-strast-2/",
@@ -337,8 +338,7 @@ const initialCards = [
 
   {
     id: 32,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/4d7/1262_575_1/htj5gniow97tx7fvp4gbxk75ryzw0vm0.jpg",
+    image: shagrenevaya,
     book: "Шагреневая кожа",
     author: "Оноре де Бальзак",
     link: "https://www.podpisnie.ru/books/shagrenevaya-kozha-7/",
@@ -348,8 +348,7 @@ const initialCards = [
 
   {
     id: 33,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/695/1262_575_1/vng8q3ya4uxmvq6o83dx746c53avia6a.jpg",
+    image: grozovoy,
     book: "Грозовой перевал",
     author: "Эмили Бронте",
     link: "https://www.podpisnie.ru/books/grozovoy-pereval-16/",
@@ -359,8 +358,7 @@ const initialCards = [
 
   {
     id: 34,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/e25/1262_575_1/oqfo4i2qiol61pepq1z093xjdc0p8st4.jpg",
+    image: doktor,
     book: "Доктор Живаго",
     author: "Борис Пастернак",
     link: "https://www.podpisnie.ru/books/doktor-zhivago-20/",
@@ -370,8 +368,7 @@ const initialCards = [
 
   {
     id: 35,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/5d6/1262_575_1/v28vsi59sxcn7mgnml2ajyhmwjn021ee.jpg",
+    image: venok,
     book: "Венок ангелов",
     author: "Гертруд фон Лефорт",
     link: "https://www.podpisnie.ru/books/venok-angelov/",
@@ -381,8 +378,7 @@ const initialCards = [
 
   {
     id: 36,
-    image:
-      "https://www.podpisnie.ru/upload/resize_cache/iblock/113/1262_575_1/3l7snn60rppsxntvixubtq7h4t8e0pq4.jpg",
+    image: vozdushnye,
     book: "Воздушные змеи",
     author: "Гари Р.",
     link: "https://www.podpisnie.ru/books/vozdushnye-zmei-3/",
