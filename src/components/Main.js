@@ -28,7 +28,7 @@ function Main({ popupActive, cards, handleText, active }) {
       </div>
       <div className="main__text">
         <h1 onClick={handleText} style={active ? red : grey}>
-         <a href="#maintext"> Что это такое? </a>
+          <a href="#maintext"> Что это такое? </a>
         </h1>
         {active && (
           <>
