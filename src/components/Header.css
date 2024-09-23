@@ -3,7 +3,6 @@
   flex-flow: row wrap;
   align-content: center;
   justify-content: center;
-  min-height: 120px;
   padding: 10px;
 }
 
@@ -59,11 +58,8 @@
   .header__logo {
     margin-right: 10px;
   }
-  
+
   .header__text {
     margin: 0 10px 0 0;
   }
 }
-
-
-
