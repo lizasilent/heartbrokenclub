@@ -6,7 +6,7 @@ import Main from "./Main";
 import initialCards from "../initials/initial";
 
 function App() {
-  //Открыть попапы
+  
   const [popupActive, setPopupActive] = React.useState(false);
   const [textActive, setTextActive] = React.useState();
   const [selectedCard, setSelectedCard] = React.useState(false);
@@ -25,12 +25,17 @@ function App() {
     setSelectedCard(false);
   }
 
-
   return (
     <div className="app">
       <Header />
 
-      <Main popupActive={handleCardClick} cards={initialCards} handleText={handleText} active={textActive} />
+      <Main
+        popupActive={handleCardClick}
+        cards={initialCards}
+        handleText={handleText}
+        active={textActive}
+        closePopup={closePopup}
+      />
 
       <Popup active={popupActive} closePopup={closePopup} card={selectedCard} />
 

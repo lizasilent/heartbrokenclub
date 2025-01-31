@@ -1,13 +1,28 @@
-import React from "react";
+import { React, useEffect, useRef } from "react";
 import "./Popup.css";
 
 
 
 function Popup({ card, closePopup }) {
 
+  const popupRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (popupRef.current && !popupRef.current.contains(event.target)) {
+        closePopup(); 
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
     <div className={`popup ${card ? "popup_is-open" : ""}`}>
-      <div className="popup__form">
+      <div className="popup__form" ref={popupRef}>
         <button onClick={closePopup}
           className="popup__close-btn"
           type="button"
