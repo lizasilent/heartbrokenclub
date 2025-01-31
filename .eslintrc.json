@@ -13,7 +13,7 @@
   },
   "plugins": ["react"],
   "rules": {
-    "max-len": ["1", { "code": 100 }],
+    "max-len": [1, { "code": 100 }],
     "no-undef": "error",
     "react/prop-types": "off"
   }
