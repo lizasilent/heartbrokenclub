@@ -8,12 +8,12 @@
   left: 0;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0.5s, opacity 0.5s linear;
   z-index: 7;
 }
 
 .popup_is-open {
   visibility: visible;
+  transition: visibility 0.5s, opacity 0.5s linear;
   opacity: 1;
 }
 

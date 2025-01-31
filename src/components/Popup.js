@@ -9,6 +9,8 @@ function Popup({ card, closePopup }) {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
+
+      if (event.button !== 0) return; 
       if (popupRef.current && !popupRef.current.contains(event.target)) {
         closePopup(); 
       }
